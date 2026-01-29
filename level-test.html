@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#070a12"/>
+  <meta name="description" content="اختبار تحديد المستوى STEP (50 سؤال) + تحليل وخطة مذاكرة — محاكاة تدريبية على نمط النماذج الحديثة حتى 51."/>
+  <title>اختبار تحديد المستوى | أكاديمية عايد</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/styles.css?v=20260130">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body class="page-level-test">
+
+  <!-- Banner تثبيت التطبيق (PWA) -->
+  <div class="install-banner" role="region" aria-label="تثبيت الموقع كتطبيق">
+    <div class="txt">
+      <div class="i">✨</div>
+      <div class="t">
+        <h4 style="margin:0">ثبّت الموقع كتطبيق</h4>
+        <p style="margin:3px 0 0">تثبيت سريع — يفتح لك الموقع بواجهة تطبيق + وصول أسرع.</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="installBtn" class="btn small primary">تثبيت</button>
+      <button id="installClose" class="btn small ghost">لاحقاً</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="العودة للرئيسية">
+        <div class="logo" aria-hidden="true">
+          <!-- شعار SVG Inline -->
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 2.5c3.6 0 6.5 2.9 6.5 6.5 0 4.9-6.5 12.5-6.5 12.5S5.5 13.9 5.5 9c0-3.6 2.9-6.5 6.5-6.5Z"
+              stroke="rgba(255,255,255,.92)" stroke-width="1.6"/>
+            <path d="M9.2 9.4 11 11.2 14.8 7.4"
+              stroke="rgba(255,255,255,.92)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="titles">
+          <div class="academy">أكاديمية عايد</div>
+          <div class="course">اختبار تحديد المستوى (STEP)</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        <a href="index.html">الرئيسية</a>
+        <a href="level-test.html" class="active">ابدأ الاختبار</a>
+        <a href="results.html">النتائج والخطة</a>
+        <a href="faq.html">الأسئلة الشائعة</a>
+        <a href="support.html">الدعم</a>
+      </nav>
+
+      <div class="header-cta">
+        <button class="icon-btn menu-btn" data-open-drawer aria-label="فتح القائمة">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <a class="btn small primary" href="#start">ابدأ الآن</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Drawer للجوال -->
+  <div class="drawer-backdrop"></div>
+  <aside class="drawer" aria-label="قائمة الجوال">
+    <header>
+      <div style="display:flex; align-items:center; gap:10px">
+        <div class="logo" style="width:38px;height:38px;border-radius:16px;display:grid;place-items:center">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 2.5c3.6 0 6.5 2.9 6.5 6.5 0 4.9-6.5 12.5-6.5 12.5S5.5 13.9 5.5 9c0-3.6 2.9-6.5 6.5-6.5Z"
+              stroke="rgba(255,255,255,.92)" stroke-width="1.6"/>
+            <path d="M9.2 9.4 11 11.2 14.8 7.4"
+              stroke="rgba(255,255,255,.92)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div style="line-height:1.1">
+          <div style="font-weight:900">أكاديمية عايد</div>
+          <div style="color:var(--muted); font-size:12px; font-weight:700">اختبار تحديد المستوى</div>
+        </div>
+      </div>
+      <button class="icon-btn" data-close-drawer aria-label="إغلاق القائمة">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 6l12 12M18 6 6 18" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </header>
+
+    <nav>
+      <a href="index.html">الرئيسية <small>تعريف سريع</small></a>
+      <a href="level-test.html">ابدأ الاختبار <small>50 سؤال + تصحيح فوري</small></a>
+      <a href="results.html">النتائج والخطة <small>تحليل + مشاركة</small></a>
+      <a href="faq.html">الأسئلة الشائعة <small>كل شيء واضح</small></a>
+      <a href="support.html">الدعم <small>نموذج استفسار</small></a>
+    </nav>
+  </aside>
+
+  <main class="container">
+    <section class="hero" id="start">
+      <div class="hero-grid">
+        <div class="hero-card">
+          <div class="inner">
+            <div class="kicker"><span class="dot"></span>اختبار تحديد المستوى • 50 سؤال • تصحيح فوري</div>
+            <h1>خلّك تبدأ صح… وبخطة واضحة</h1>
+            <p class="lead">
+              هذا اختبار تدريبي يعطيك تشخيص واقعي لنقاطك: <b>Grammar / Reading / Listening</b> —
+              والأسئلة مبنية على “نمط” النماذج الحديثة حتى <b>51</b>.
+              بعد ما تخلص، بتطلع لك <b>خطة مذاكرة مفصّلة</b> + نصائح للتقدم.
+            </p>
+
+            <div class="pills" style="margin-top:12px">
+              <span class="pill">🎯 تحليل نقاط الضعف</span>
+              <span class="pill">🧠 خطة حسب وقتك</span>
+              <span class="pill">⚡ سؤال بسؤال</span>
+              <span class="pill">✅ تصحيح فوري</span>
+            </div>
+
+            <div class="sep"></div>
+
+            <div class="card glass" style="padding:14px">
+              <b>تنبيه مهم وبشكل واضح</b>
+              <p style="margin:8px 0 0; color:var(--muted); line-height:1.95">
+                هذا اختبار <b>محاكاة تدريبية</b> مبني على نمط الأسئلة الحديثة، وليس أسئلة قياس الرسمية.
+                الهدف: تعرف مستواك وتبدأ بخطة منظمة — والالتزام هو الفارق بإذن الله.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-side">
+          <div class="inner">
+            <h3>قبل ما تبدأ</h3>
+            <p class="mini">خذها قاعدة: “التركيز أهم من الكثرة”. خلّ الاختبار يعطيك المسار.</p>
+
+            <div class="list">
+              <div class="li">
+                <span class="badge">1 <small>وقت</small></span>
+                <div>
+                  <b>المدة</b>
+                  <div style="color:var(--muted); font-size:12.5px; margin-top:2px; line-height:1.7">
+                    تقريبًا 12–20 دقيقة حسب سرعتك.
+                  </div>
+                </div>
+              </div>
+
+              <div class="li">
+                <span class="badge">2 <small>نظام</small></span>
+                <div>
+                  <b>سؤال بسؤال</b>
+                  <div style="color:var(--muted); font-size:12.5px; margin-top:2px; line-height:1.7">
+                    تختار الإجابة وتظهر لك نتيجة فورية وتكمل.
+                  </div>
+                </div>
+              </div>
+
+              <div class="li">
+                <span class="badge">3 <small>حفظ</small></span>
+                <div>
+                  <b>حفظ التقدم</b>
+                  <div style="color:var(--muted); font-size:12.5px; margin-top:2px; line-height:1.7">
+                    لو طلعّت، تقدر تكمل من آخر نقطة بنفس الجهاز والمتصفح.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sep"></div>
+
+            <div class="card" style="padding:14px">
+              <b>دعاء ودفعة 💛</b>
+              <p style="margin:8px 0 0; color:var(--muted); line-height:1.95">
+                الله يفتح عليك فتحًا يفرح قلبك، ويكتب لك الدرجة اللي تتمناها.
+                ابدأ الحين… ولا تستنى “الوقت المثالي”.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- هنا سكربت test.js يبني كامل واجهة الاختبار تلقائياً -->
+    <div id="testHost"></div>
+
+    <section class="section">
+      <div class="title">
+        <h2>وش يصير بعد الاختبار؟</h2>
+        <p>النتيجة تطلع لك مباشرة + خطة قابلة للمشاركة</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="feature">
+          <div class="icon">📊</div>
+          <h3>نسبة + مستوى</h3>
+          <p>تعرف مستواك الحالي ونسبة كل قسم بشكل واضح.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🧩</div>
+          <h3>تشخيص</h3>
+          <p>نحدد لك “الأضعف” ونحط له تمارين مركزة.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🚀</div>
+          <h3>خطة قابلة للمشاركة</h3>
+          <p>نص جاهز تشاركه… يحمّس غيرك يجرب الاختبار ويبدأ صح.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>اختبار تحديد المستوى — أكاديمية عايد</h4>
+        <p style="margin-top:8px">
+          منصة مجانية للتشخيص وبناء خطة — وتوجيهك للمسار الصحيح.
+          <br>الله يوفقك ويكتب لك الدرجة اللي تفرحك 🤍
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="faq.html">الأسئلة الشائعة</a>
+        <a href="support.html">الدعم</a>
+        <a href="privacy.html">الخصوصية</a>
+        <a href="terms.html">الشروط</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Scripts -->
+  <script src="assets/site-data.js?v=20260130"></script>
+  <script src="assets/notifications.js?v=20260130"></script>
+  <script src="assets/app.js?v=20260130"></script>
+
+  <!-- أهم ملف للاختبار -->
+  <script src="assets/test.js?v=20260130"></script>
+</body>
+</html>
