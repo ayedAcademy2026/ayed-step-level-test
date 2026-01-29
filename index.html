@@ -1,419 +1,0 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="theme-color" content="#070a12"/>
-  <meta name="description" content="اختبار تحديد مستوى STEP (50 سؤال) + تحليل + خطة يومية قابلة للمشاركة. مبني على نمط النماذج الحديثة حتى 51 (محاكاة تدريبية)."/>
-  <title>أكاديمية عايد | اختبار تحديد المستوى STEP 2026</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/styles.css?v=202601290327">
-  <link rel="manifest" href="manifest.json">
-</head>
-
-<body class="page-home">
-
-  <!-- Install banner (PWA) -->
-  <div class="install-banner" role="region" aria-label="تثبيت الموقع كتطبيق">
-    <div class="txt">
-      <div class="i">✨</div>
-      <div class="t">
-        <h4 style="margin:0">ثبّت موقع الاختبار كتطبيق</h4>
-        <p style="margin:3px 0 0">واجهة “برنامج” على جوالك + فتح أسرع + تجربة أريح.</p>
-      </div>
-    </div>
-    <div class="actions">
-      <button id="installBtn" class="btn small primary">تثبيت</button>
-      <button id="installClose" class="btn small ghost">لاحقاً</button>
-    </div>
-  </div>
-
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="العودة للرئيسية">
-        <div class="logo" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none">
-            <path d="M12 2.5c3.6 0 6.5 2.9 6.5 6.5 0 4.9-6.5 12.5-6.5 12.5S5.5 13.9 5.5 9c0-3.6 2.9-6.5 6.5-6.5Z"
-              stroke="rgba(255,255,255,.92)" stroke-width="1.6"/>
-            <path d="M9.2 9.4 11 11.2 14.8 7.4"
-              stroke="rgba(255,255,255,.92)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div class="titles">
-          <div class="academy">أكاديمية عايد</div>
-          <div class="course">اختبار تحديد المستوى — STEP 2026</div>
-        </div>
-      </a>
-
-      <nav class="nav" aria-label="التنقل الرئيسي">
-        <a href="index.html">الرئيسية</a>
-        <a href="level-test.html">ابدأ الاختبار</a>
-        <a href="faq.html">الأسئلة الشائعة</a>
-        <a href="support.html">الدعم</a>
-      </nav>
-
-      <div class="header-cta">
-        <button class="icon-btn menu-btn" data-open-drawer aria-label="فتح القائمة">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M4 7h16M4 12h16M4 17h16" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </button>
-        <a class="btn small primary" href="level-test.html">ابدأ الاختبار</a>
-      </div>
-    </div>
-  </header>
-
-  <div class="drawer-backdrop"></div>
-  <aside class="drawer" aria-label="قائمة الجوال">
-    <header>
-      <div style="display:flex; align-items:center; gap:10px">
-        <div class="logo" style="width:38px;height:38px;border-radius:16px;display:grid;place-items:center">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M12 2.5c3.6 0 6.5 2.9 6.5 6.5 0 4.9-6.5 12.5-6.5 12.5S5.5 13.9 5.5 9c0-3.6 2.9-6.5 6.5-6.5Z"
-              stroke="rgba(255,255,255,.92)" stroke-width="1.6"/>
-            <path d="M9.2 9.4 11 11.2 14.8 7.4"
-              stroke="rgba(255,255,255,.92)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div style="line-height:1.1">
-          <div style="font-weight:900">أكاديمية عايد</div>
-          <div style="color:var(--muted); font-size:12px; font-weight:700">اختبار تحديد المستوى</div>
-        </div>
-      </div>
-      <button class="icon-btn" data-close-drawer aria-label="إغلاق القائمة">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M6 6l12 12M18 6 6 18" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-      </button>
-    </header>
-
-    <nav>
-      <a href="index.html">الرئيسية <small>تعريف سريع + آراء</small></a>
-      <a href="level-test.html">ابدأ الاختبار <small>50 سؤال + تصحيح فوري</small></a>
-      <a href="results.html">النتائج والخطة <small>تظهر بعد الاختبار</small></a>
-      <a href="faq.html">الأسئلة الشائعة <small>كل شيء واضح</small></a>
-      <a href="support.html">الدعم <small>نموذج استفسار + بلاغات</small></a>
-    </nav>
-  </aside>
-
-  <main class="container">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-grid">
-
-        <div class="hero-card">
-          <div class="inner">
-            <div class="kicker">
-              <span class="dot"></span>
-              محاكاة تدريبية مبنية على نمط النماذج الحديثة حتى 51 • تحليل + خطة يومية قابلة للمشاركة
-            </div>
-
-            <h1>اختبر مستواك بذكاء…<br>وخل خطتك تمشي معك يوم بيوم ✅</h1>
-
-            <p class="lead">
-              إذا تبي ترتّب مذاكرتك بدون تشتّت: ابدأ هنا.
-              <b>50 سؤال</b> موزعة (Grammar / Reading / Listening) — وبعدها يطلع لك
-              <b>تحليل واضح + خطة مذاكرة مناسبة لوقتك</b>.
-            </p>
-
-            <div class="cta-row">
-              <a class="btn primary" href="level-test.html">ابدأ اختبار تحديد المستوى الآن</a>
-              <a class="btn outline" href="#trust">شوف آراء وتجارب</a>
-              <a class="btn ghost" href="#share">وش يعني “مشاركة الخطة”؟</a>
-            </div>
-
-            <div class="pills" style="margin-top:14px">
-              <span class="pill">🧠 تصحيح فوري + شرح مختصر</span>
-              <span class="pill">🗓️ خطة (يوم / 3 أيام / أسبوع / شهر)</span>
-              <span class="pill">⭐ أسلوب متجر: تقييمات وتجارب</span>
-              <span class="pill">🔁 مشاركة الخطة بنص تسويقي جاهز</span>
-            </div>
-
-            <div class="sep"></div>
-
-            <div class="card glass" style="padding:14px">
-              <b>﴿ وَقُلْ رَبِّ زِدْنِي عِلْمًا ﴾ 🤍</b>
-              <p style="margin:8px 0 0; color:var(--muted); line-height:1.95">
-                الله يكتب لك التوفيق والدرجة اللي تفرحك. تذكّر:
-                <b>الثبات</b> أهم من الحماس المؤقت… حتى لو 15 دقيقة يوميًا.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-side">
-          <div class="inner">
-            <h3>كيف يمشي الموقع؟ (3 خطوات)</h3>
-            <p class="mini">أبسط من كذا ما فيه… وبتحس بوضوح من أول جلسة.</p>
-
-            <div class="list">
-              <div class="li">
-                <span class="badge">1 <small>اختبار</small></span>
-                <div>
-                  <b>تعبئة بيانات بسيطة</b>
-                  <div class="muted-sm">
-                    اسم + هدفك + وقت اختبارك + هل جربت دورات قبل؟ (عشان نرشح لك الأنسب).
-                  </div>
-                </div>
-              </div>
-
-              <div class="li">
-                <span class="badge">2 <small>50 سؤال</small></span>
-                <div>
-                  <b>تصحيح فوري + شرح</b>
-                  <div class="muted-sm">
-                    تختار الإجابة — يطلع لك الصح والغلط مع سبب مختصر… وبعدين “التالي”.
-                  </div>
-                </div>
-              </div>
-
-              <div class="li">
-                <span class="badge">3 <small>خطة</small></span>
-                <div>
-                  <b>نتيجة + خطة + مشاركة</b>
-                  <div class="muted-sm">
-                    الخطة تطلع حسب وقتك ونقاط ضعفك + زر مشاركة بنص منسق يحمّس غيرك يجرب.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="sep"></div>
-
-            <div class="card" style="padding:14px">
-              <b>ملاحظة مهمّة (بكل احترام)</b>
-              <p style="margin:8px 0 0; color:var(--muted); line-height:1.9">
-                هذا اختبار <b>محاكاة تدريبية</b> مبنية على “نمط” النماذج الحديثة المنتشرة للتدريب،
-                وليس أسئلة قياس الرسمية. الهدف: نحدد مستواك ونرتّب لك خطة واقعية تمشي عليها.
-              </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- WHY -->
-    <section class="section" id="share">
-      <div class="title">
-        <h2>ليش “مشاركة الخطة” بتفرق؟</h2>
-        <p>مو زر زيادة… هذا سر الالتزام + شهرة الموقع</p>
-      </div>
-
-      <div class="grid-3">
-        <div class="feature">
-          <div class="icon">🔁</div>
-          <h3>تحاسب نفسك</h3>
-          <p>إذا أرسلت خطتك لصديق أو حفظتها في ملاحظات الجوال… صعب تتهرب منها.</p>
-        </div>
-
-        <div class="feature">
-          <div class="icon">💬</div>
-          <h3>نص تسويقي جاهز</h3>
-          <p>المشاركة تطلع كنص منسق: نتيجتك + خطتك اليومية + نصائح + روابط التجربة.</p>
-        </div>
-
-        <div class="feature">
-          <div class="icon">🚀</div>
-          <h3>تجيب ناس معك</h3>
-          <p>أي أحد يشوف النص… يتحمس يجرب الاختبار ويبدأ على طول.</p>
-        </div>
-      </div>
-
-      <div class="sep"></div>
-
-      <div class="card glass" style="padding:16px">
-        <b>وش بيطلع داخل رسالة المشاركة؟</b>
-        <p style="margin:8px 0 0; color:var(--muted); line-height:1.95">
-          “نتيجتي + أضعف قسم + خطة (يوم/3 أيام/أسبوع/شهر) + نصيحة مهمة + رابط اختبار المستوى + روابط الدورات المقترحة”.
-          <br>كل هذا يتولد تلقائيًا بعد ما تخلص الاختبار.
-        </p>
-      </div>
-    </section>
-
-    <!-- TRUST / TESTIMONIALS -->
-    <section class="section" id="trust">
-      <div class="title">
-        <h2>تجارب وتقييمات (أسلوب متجر)</h2>
-        <p>نماذج عرض للتجربة — الأسماء “مستعارة” للخصوصية</p>
-      </div>
-
-      <div class="stats">
-        <div class="stat">
-          <div class="num">4.9/5</div>
-          <div class="lbl">متوسط تقييم التجربة</div>
-        </div>
-        <div class="stat">
-          <div class="num">97%</div>
-          <div class="lbl">رضا عن “وضوح الخطة”</div>
-        </div>
-        <div class="stat">
-          <div class="num">50</div>
-          <div class="lbl">سؤال في الاختبار</div>
-        </div>
-        <div class="stat">
-          <div class="num">3</div>
-          <div class="lbl">أقسام تحليل</div>
-        </div>
-      </div>
-
-      <div class="sep"></div>
-
-      <div class="grid-2">
-        <div class="card glass">
-          <div class="review">
-            <div class="avatar">ش</div>
-            <div class="meta">
-              <div class="name">شهد (اسم مستعار)</div>
-              <div class="sub">“الخطة اليومية” — أقوى شيء</div>
-              <div style="margin-top:6px" class="stars" aria-hidden="true" data-stars="5"></div>
-              <p class="text">“يا بنات… أول مرة أحس نفسي أعرف وش أذاكر اليوم وبس. بدون توتر ولا تشتيت.”</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card glass">
-          <div class="review">
-            <div class="avatar">ت</div>
-            <div class="meta">
-              <div class="name">تركي (اسم مستعار)</div>
-              <div class="sub">قرأ أسرع + أخطاء أقل</div>
-              <div style="margin-top:6px" class="stars" aria-hidden="true" data-stars="5"></div>
-              <p class="text">“التصحيح الفوري مع السبب خلاني أفهم بسرعة… مو بس أعرف إني غلطان.”</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card glass">
-          <div class="review">
-            <div class="avatar">ف</div>
-            <div class="meta">
-              <div class="name">فيصل (اسم مستعار)</div>
-              <div class="sub">Listening كان العائق</div>
-              <div style="margin-top:6px" class="stars" aria-hidden="true" data-stars="5"></div>
-              <p class="text">“كنت أضيع في الاستماع… الخطة قالت لي وش أتدرب وكيف أراجع أخطائي.”</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card glass">
-          <div class="review">
-            <div class="avatar">ر</div>
-            <div class="meta">
-              <div class="name">ريم (اسم مستعار)</div>
-              <div class="sub">التزام بدون ضغط</div>
-              <div style="margin-top:6px" class="stars" aria-hidden="true" data-stars="5"></div>
-              <p class="text">“الميزة؟ مشاركة الخطة… صرت أرسلها لصديقتي وأتحاسب 😅”</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="inline-actions" style="margin-top:14px">
-        <a class="btn primary" href="level-test.html">ابدأ الاختبار</a>
-        <a class="btn outline" href="faq.html">الأسئلة الشائعة</a>
-        <a class="btn ghost" href="support.html">عندي استفسار</a>
-      </div>
-    </section>
-
-    <!-- Safety -->
-    <section class="section">
-      <div class="card glass" style="padding:18px">
-        <div class="title" style="margin-bottom:10px">
-          <h2 style="margin:0">تنبيه لطيف ضد النصب والاستغلال</h2>
-          <p>ونحمد الله على نعمة الأمن والأمان 🇸🇦</p>
-        </div>
-
-        <p style="margin:0; color:var(--muted); line-height:1.95">
-          كثرت مؤخرًا محاولات استغلال الطلاب عبر روابط وهمية أو وعود غير واقعية.
-          خلك ذكي: لا تعطي بياناتك ولا تدخل أي روابط مشبوهة.
-          وإذا صار لك شيء — وثّق الأدلة وقدم بلاغ عبر الجهات الرسمية.
-          <br><br>
-          داخل <a href="support.html" style="color:var(--accent); font-weight:900">صفحة الدعم</a> بنرتّب لك “صيغة بلاغ” وخطوات توثيق بسيطة.
-        </p>
-
-        <div class="sep"></div>
-        <div class="inline-actions">
-          <a class="btn primary" href="support.html">صفحة الدعم + البلاغات</a>
-          <a class="btn outline" href="level-test.html">أبدأ اختباري الآن</a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <h4>أكاديمية عايد — اختبار تحديد المستوى</h4>
-        <p style="margin-top:8px">
-          هدفنا: تخفيف التشتت + إعطاء خطة واقعية تمشي عليها.
-          <br>الله يكتب لك التوفيق والدرجة اللي تفرّحك 🤍
-        </p>
-      </div>
-
-      <div class="footer-links">
-        <a href="faq.html">الأسئلة الشائعة</a>
-        <a href="support.html">صفحة الدعم</a>
-        <a href="privacy.html">الخصوصية</a>
-        <a href="terms.html">الشروط</a>
-      </div>
-    </div>
-  </footer>
-
-  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
-
-  <!-- Assistant (بدون تيليجرام) -->
-  <button class="assistant-fab" aria-label="مساعد الاختبار">
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M7 18l-3 3V7a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H7Z" stroke="rgba(0,0,0,.9)" stroke-width="2" stroke-linejoin="round"/>
-      <path d="M8 9h8M8 12h6" stroke="rgba(0,0,0,.9)" stroke-width="2" stroke-linecap="round"/>
-    </svg>
-  </button>
-
-  <div class="assistant-panel" aria-label="مساعد الاختبار">
-    <header>
-      <div class="who">
-        <div class="avatar" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none">
-            <path d="M8 9h8M8 13h6" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M12 2v3" stroke="rgba(255,255,255,.7)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M7 6h10a4 4 0 0 1 4 4v5a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-5a4 4 0 0 1 4-4Z"
-              stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div>
-          <div class="name">مساعد الاختبار</div>
-          <p class="hint">يوجهك داخل الموقع + يجاوب أسئلة الاختبار والخطة</p>
-        </div>
-      </div>
-      <button class="close" data-close-assistant>إغلاق</button>
-    </header>
-
-    <div class="body">
-      <div class="quick-actions">
-        <button class="chip" data-q="كيف أبدأ الاختبار؟">كيف أبدأ؟</button>
-        <button class="chip" data-q="هل الأسئلة صعبة؟">هل الأسئلة صعبة؟</button>
-        <button class="chip" data-q="كيف تطلع الخطة؟">كيف تطلع الخطة؟</button>
-        <button class="chip" data-q="وش فايدة المشاركة؟">فايدة المشاركة</button>
-        <button class="chip" data-q="عندي مشكلة تقنية">مشكلة تقنية</button>
-      </div>
-
-      <div class="chat" role="log" aria-live="polite"></div>
-
-      <div class="composer">
-        <input id="assistantInput" type="text" placeholder="اكتب سؤالك هنا… (مثال: اختباري بعد 3 أيام وش أسوي؟)" />
-        <button id="assistantSend" class="btn small primary">إرسال</button>
-      </div>
-    </div>
-  </div>
-
-  <script src="assets/site-data.js?v=202601290327"></script>
-  <script src="assets/notifications.js?v=202601290327"></script>
-  <script src="assets/app.js?v=202601290327"></script>
-</body>
-</html>
