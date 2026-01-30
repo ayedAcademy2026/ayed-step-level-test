@@ -1,0 +1,3924 @@
+{
+  "questions": [
+    {
+      "id": "V0004",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "The CEO remained ___ despite the criticism, refusing to change the plan.",
+      "choices": [
+        "adamant",
+        "abundant",
+        "ambient",
+        "amiable"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Adamant' = stubbornly determined."
+    },
+    {
+      "id": "G0011",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "L0019",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nAnnouncer: 'The train to Dammam is delayed due to maintenance. Passengers should proceed to platform 3 at 6:10.'\n\nQuestion: When should passengers go to platform 3?",
+      "choices": [
+        "6:10",
+        "3:00",
+        "6:30",
+        "5:10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The announcer says platform 3 at 6:10."
+    },
+    {
+      "id": "G0099",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The committee recommended that the policy ___ immediately.",
+      "choices": [
+        "is revised",
+        "be revised",
+        "was revised",
+        "will revise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive uses 'be' + past participle: 'be revised'."
+    },
+    {
+      "id": "G0002",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Neither the manager nor the employees ___ willing to change the schedule.",
+      "choices": [
+        "is",
+        "was",
+        "are",
+        "be"
+      ],
+      "answerIndex": 2,
+      "explanation": "With 'neither...nor', the verb agrees with the closest subject ('employees' = plural)."
+    },
+    {
+      "id": "V0024",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ an idea means to explain it in detail.",
+      "choices": [
+        "elaborate on",
+        "eliminate",
+        "elevate",
+        "emulate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Elaborate on' = give more details."
+    },
+    {
+      "id": "L0035",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "G0082",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "V0014",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ a meeting means to delay it to a later time.",
+      "choices": [
+        "postpone",
+        "propose",
+        "presume",
+        "portray"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Postpone' = delay."
+    },
+    {
+      "id": "G0095",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "V0048",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "V0070",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "L0029",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "V0018",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "G0059",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "V0071",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "V0019",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ a meeting means to delay it to a later time.",
+      "choices": [
+        "postpone",
+        "propose",
+        "presume",
+        "portray"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Postpone' = delay."
+    },
+    {
+      "id": "G0042",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "G0019",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "No sooner ___ the lesson than the quiz began.",
+      "choices": [
+        "did we start",
+        "had we started",
+        "we started",
+        "we had started"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'No sooner', use inversion with past perfect: 'No sooner had we started...'"
+    },
+    {
+      "id": "R0003",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "R0039",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "V0032",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "R0017",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "V0057",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "G0115",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "V0052",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "If evidence is ___, it is not sufficient or convincing.",
+      "choices": [
+        "inconclusive",
+        "inclusive",
+        "incredible",
+        "independent"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Inconclusive' = not leading to a definite conclusion."
+    },
+    {
+      "id": "R0009",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "G0057",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "R0026",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "R0014",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "L0001",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nSpeaker A: 'I thought the deadline was next Monday.'\nSpeaker B: 'It was moved up to Friday, so we need to finish today.'\n\nQuestion: What is the main problem?",
+      "choices": [
+        "The deadline has been extended.",
+        "The deadline is earlier than expected.",
+        "They already finished the work.",
+        "They cannot start the project."
+      ],
+      "answerIndex": 1,
+      "explanation": "The deadline was moved up to Friday, earlier than A thought."
+    },
+    {
+      "id": "V0007",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "The company plans to ___ its market share by entering new regions.",
+      "choices": [
+        "expand",
+        "expend",
+        "explode",
+        "exempt"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Expand' = increase/enlarge."
+    },
+    {
+      "id": "V0049",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "R0025",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "G0061",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "G0009",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Each of the proposals ___ a different budget estimate.",
+      "choices": [
+        "include",
+        "includes",
+        "including",
+        "included"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Each' is singular; use 'includes'."
+    },
+    {
+      "id": "R0020",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "G0063",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "R0033",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "G0006",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Not only ___ late, but he also forgot the documents.",
+      "choices": [
+        "he arrived",
+        "arrived he",
+        "did he arrive",
+        "he did arrive"
+      ],
+      "answerIndex": 2,
+      "explanation": "After 'Not only', auxiliary inversion is required: 'did he arrive'."
+    },
+    {
+      "id": "G0070",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "R0015",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "V0003",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "The scientist tried to ___ the results, but the data were inconsistent.",
+      "choices": [
+        "corroborate",
+        "contradict",
+        "contemplate",
+        "condense"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Corroborate' = confirm with evidence."
+    },
+    {
+      "id": "G0045",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "R0028",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0015",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "No sooner ___ the lesson than the quiz began.",
+      "choices": [
+        "did we start",
+        "had we started",
+        "we started",
+        "we had started"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'No sooner', use inversion with past perfect: 'No sooner had we started...'"
+    },
+    {
+      "id": "V0079",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ a meeting means to delay it to a later time.",
+      "choices": [
+        "postpone",
+        "propose",
+        "presume",
+        "portray"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Postpone' = delay."
+    },
+    {
+      "id": "R0031",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "V0037",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ from a mistake means to gain a lesson from it.",
+      "choices": [
+        "learn",
+        "lend",
+        "lean",
+        "leap"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Learn' fits the collocation 'learn from'."
+    },
+    {
+      "id": "G0030",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "R0004",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "G0092",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "R0030",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "V0063",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "The company plans to ___ its market share by entering new regions.",
+      "choices": [
+        "expand",
+        "expend",
+        "explode",
+        "exempt"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Expand' = increase/enlarge."
+    },
+    {
+      "id": "G0105",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "G0038",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The committee recommended that the policy ___ immediately.",
+      "choices": [
+        "is revised",
+        "be revised",
+        "was revised",
+        "will revise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive uses 'be' + past participle: 'be revised'."
+    },
+    {
+      "id": "V0033",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "If evidence is ___, it is not sufficient or convincing.",
+      "choices": [
+        "inconclusive",
+        "inclusive",
+        "incredible",
+        "independent"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Inconclusive' = not leading to a definite conclusion."
+    },
+    {
+      "id": "V0038",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "V0056",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "Something that is ___ happens occasionally but not regularly.",
+      "choices": [
+        "sporadic",
+        "specific",
+        "spherical",
+        "spontaneous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Sporadic' = irregular."
+    },
+    {
+      "id": "V0064",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "G0046",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "G0079",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "L0022",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nAnnouncer: 'The train to Dammam is delayed due to maintenance. Passengers should proceed to platform 3 at 6:10.'\n\nQuestion: When should passengers go to platform 3?",
+      "choices": [
+        "6:10",
+        "3:00",
+        "6:30",
+        "5:10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The announcer says platform 3 at 6:10."
+    },
+    {
+      "id": "V0012",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "G0091",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "L0023",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "L0008",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nStudent: 'I missed the first part of the lecture.'\nTutor: 'No worries. Review the summary notes, then try the practice questions.'\n\nQuestion: What should the student do first?",
+      "choices": [
+        "Try the practice questions",
+        "Review the summary notes",
+        "Skip the lecture",
+        "Ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tutor says review notes first."
+    },
+    {
+      "id": "G0108",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "R0034",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "V0068",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "Something that is ___ happens occasionally but not regularly.",
+      "choices": [
+        "sporadic",
+        "specific",
+        "spherical",
+        "spontaneous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Sporadic' = irregular."
+    },
+    {
+      "id": "V0030",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "L0004",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nAnnouncer: 'The train to Dammam is delayed due to maintenance. Passengers should proceed to platform 3 at 6:10.'\n\nQuestion: When should passengers go to platform 3?",
+      "choices": [
+        "6:10",
+        "3:00",
+        "6:30",
+        "5:10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The announcer says platform 3 at 6:10."
+    },
+    {
+      "id": "G0109",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "G0028",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "R0005",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "V0023",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ an idea means to explain it in detail.",
+      "choices": [
+        "elaborate on",
+        "eliminate",
+        "elevate",
+        "emulate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Elaborate on' = give more details."
+    },
+    {
+      "id": "L0016",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "G0047",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "L0026",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "R0018",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0114",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "L0021",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "V0051",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "G0035",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "V0034",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ from a mistake means to gain a lesson from it.",
+      "choices": [
+        "learn",
+        "lend",
+        "lean",
+        "leap"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Learn' fits the collocation 'learn from'."
+    },
+    {
+      "id": "G0117",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "R0013",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0090",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "G0050",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The committee recommended that the policy ___ immediately.",
+      "choices": [
+        "is revised",
+        "be revised",
+        "was revised",
+        "will revise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive uses 'be' + past participle: 'be revised'."
+    },
+    {
+      "id": "V0027",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "G0003",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The report, along with the appendices, ___ on the desk.",
+      "choices": [
+        "are",
+        "were",
+        "is",
+        "have"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Along with' does not change the subject; 'report' is singular."
+    },
+    {
+      "id": "L0010",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nStudent: 'I missed the first part of the lecture.'\nTutor: 'No worries. Review the summary notes, then try the practice questions.'\n\nQuestion: What should the student do first?",
+      "choices": [
+        "Try the practice questions",
+        "Review the summary notes",
+        "Skip the lecture",
+        "Ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tutor says review notes first."
+    },
+    {
+      "id": "L0038",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nStudent: 'I missed the first part of the lecture.'\nTutor: 'No worries. Review the summary notes, then try the practice questions.'\n\nQuestion: What should the student do first?",
+      "choices": [
+        "Try the practice questions",
+        "Review the summary notes",
+        "Skip the lecture",
+        "Ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tutor says review notes first."
+    },
+    {
+      "id": "R0011",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "G0048",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The committee recommended that the policy ___ immediately.",
+      "choices": [
+        "is revised",
+        "be revised",
+        "was revised",
+        "will revise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive uses 'be' + past participle: 'be revised'."
+    },
+    {
+      "id": "V0059",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "V0078",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "To ___ an idea means to explain it in detail.",
+      "choices": [
+        "elaborate on",
+        "eliminate",
+        "elevate",
+        "emulate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Elaborate on' = give more details."
+    },
+    {
+      "id": "V0060",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "V0020",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "V0017",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "G0023",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "G0012",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "G0032",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "G0025",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "G0113",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "No sooner ___ the lesson than the quiz began.",
+      "choices": [
+        "did we start",
+        "had we started",
+        "we started",
+        "we had started"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'No sooner', use inversion with past perfect: 'No sooner had we started...'"
+    },
+    {
+      "id": "G0018",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "No sooner ___ the lesson than the quiz began.",
+      "choices": [
+        "did we start",
+        "had we started",
+        "we started",
+        "we had started"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'No sooner', use inversion with past perfect: 'No sooner had we started...'"
+    },
+    {
+      "id": "G0055",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "G0111",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "G0098",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "G0043",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "G0058",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "R0006",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "V0046",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "V0039",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "V0009",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "The company plans to ___ its market share by entering new regions.",
+      "choices": [
+        "expand",
+        "expend",
+        "explode",
+        "exempt"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Expand' = increase/enlarge."
+    },
+    {
+      "id": "V0075",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "V0043",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "G0010",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "I wish I ___ more time to practice before the test.",
+      "choices": [
+        "have",
+        "had",
+        "would have",
+        "will have"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wish about the present uses past simple: 'I wish I had...'"
+    },
+    {
+      "id": "V0026",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "To ___ an idea means to explain it in detail.",
+      "choices": [
+        "elaborate on",
+        "eliminate",
+        "elevate",
+        "emulate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Elaborate on' = give more details."
+    },
+    {
+      "id": "G0083",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "R0032",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "L0015",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "L0012",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "G0086",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "V0044",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "R0002",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nResearchers found that students who used spaced repetition remembered vocabulary longer than those who crammed the night before. Spaced repetition works by revisiting information at increasing intervals, which strengthens memory. Although it requires planning, it often saves time in the long run.\n\nQuestion: What can be inferred about spaced repetition?",
+      "choices": [
+        "It is less effective than cramming.",
+        "It requires organization but improves long-term retention.",
+        "It works only for grammar rules.",
+        "It makes students forget faster."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage implies it needs planning but helps memory over time."
+    },
+    {
+      "id": "V0040",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "G0062",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "V0073",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "The company plans to ___ its market share by entering new regions.",
+      "choices": [
+        "expand",
+        "expend",
+        "explode",
+        "exempt"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Expand' = increase/enlarge."
+    },
+    {
+      "id": "G0067",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "G0066",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "G0077",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "G0073",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "G0088",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "V0069",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "L0034",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nAnnouncer: 'The train to Dammam is delayed due to maintenance. Passengers should proceed to platform 3 at 6:10.'\n\nQuestion: When should passengers go to platform 3?",
+      "choices": [
+        "6:10",
+        "3:00",
+        "6:30",
+        "5:10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The announcer says platform 3 at 6:10."
+    },
+    {
+      "id": "G0044",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "G0033",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "V0025",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "To ___ from a mistake means to gain a lesson from it.",
+      "choices": [
+        "learn",
+        "lend",
+        "lean",
+        "leap"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Learn' fits the collocation 'learn from'."
+    },
+    {
+      "id": "R0001",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nIn many cities, public transportation is being redesigned to reduce carbon emissions. One approach is to replace diesel buses with electric ones. While the initial cost is high, maintenance expenses tend to be lower over time. However, the success of these programs often depends on reliable charging infrastructure.\n\nQuestion: What is the main idea of the passage?",
+      "choices": [
+        "Public transport is free in many cities.",
+        "Electric buses can reduce emissions but require infrastructure.",
+        "Diesel buses are cheaper to maintain.",
+        "Charging infrastructure is always inexpensive."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage discusses electric buses: benefits and the need for charging infrastructure."
+    },
+    {
+      "id": "V0041",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "Something that is ___ happens occasionally but not regularly.",
+      "choices": [
+        "sporadic",
+        "specific",
+        "spherical",
+        "spontaneous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Sporadic' = irregular."
+    },
+    {
+      "id": "G0036",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "V0074",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "L0033",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "V0045",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "G0021",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "G0053",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "R0035",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "V0022",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "Something that is ___ happens occasionally but not regularly.",
+      "choices": [
+        "sporadic",
+        "specific",
+        "spherical",
+        "spontaneous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Sporadic' = irregular."
+    },
+    {
+      "id": "G0103",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "G0008",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The number of applicants ___ increased dramatically this year.",
+      "choices": [
+        "have",
+        "has",
+        "are",
+        "were"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The number' is singular; use 'has'."
+    },
+    {
+      "id": "V0047",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "To ___ an idea means to explain it in detail.",
+      "choices": [
+        "elaborate on",
+        "eliminate",
+        "elevate",
+        "emulate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Elaborate on' = give more details."
+    },
+    {
+      "id": "V0054",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "The company plans to ___ its market share by entering new regions.",
+      "choices": [
+        "expand",
+        "expend",
+        "explode",
+        "exempt"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Expand' = increase/enlarge."
+    },
+    {
+      "id": "G0049",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "V0066",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "R0008",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "G0112",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "R0023",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "G0064",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "L0036",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nStudent: 'I missed the first part of the lecture.'\nTutor: 'No worries. Review the summary notes, then try the practice questions.'\n\nQuestion: What should the student do first?",
+      "choices": [
+        "Try the practice questions",
+        "Review the summary notes",
+        "Skip the lecture",
+        "Ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tutor says review notes first."
+    },
+    {
+      "id": "L0002",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nProfessor: 'For the exam, focus on the concept of opportunity cost rather than memorizing definitions. If you can explain it with a real example, you'll do well.'\n\nQuestion: What does the professor recommend?",
+      "choices": [
+        "Memorizing many definitions",
+        "Studying opportunity cost using examples",
+        "Skipping the concept of opportunity cost",
+        "Only reading the textbook glossary"
+      ],
+      "answerIndex": 1,
+      "explanation": "He says focus on the concept and explain with a real example."
+    },
+    {
+      "id": "G0014",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "G0027",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "R0007",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0013",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "G0071",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The committee recommended that the policy ___ immediately.",
+      "choices": [
+        "is revised",
+        "be revised",
+        "was revised",
+        "will revise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive uses 'be' + past participle: 'be revised'."
+    },
+    {
+      "id": "G0110",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "R0012",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "R0019",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "V0031",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "R0022",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "V0080",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ an idea means to explain it in detail.",
+      "choices": [
+        "elaborate on",
+        "eliminate",
+        "elevate",
+        "emulate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Elaborate on' = give more details."
+    },
+    {
+      "id": "G0017",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "G0096",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "G0065",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "L0031",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nAnnouncer: 'The train to Dammam is delayed due to maintenance. Passengers should proceed to platform 3 at 6:10.'\n\nQuestion: When should passengers go to platform 3?",
+      "choices": [
+        "6:10",
+        "3:00",
+        "6:30",
+        "5:10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The announcer says platform 3 at 6:10."
+    },
+    {
+      "id": "G0004",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "By the time we arrived, the meeting ___ for fifteen minutes.",
+      "choices": [
+        "had started",
+        "had been going",
+        "has been going",
+        "started"
+      ],
+      "answerIndex": 1,
+      "explanation": "Past perfect continuous shows an action continuing up to a point in the past."
+    },
+    {
+      "id": "G0051",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The committee recommended that the policy ___ immediately.",
+      "choices": [
+        "is revised",
+        "be revised",
+        "was revised",
+        "will revise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive uses 'be' + past participle: 'be revised'."
+    },
+    {
+      "id": "V0065",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "L0024",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "G0087",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "G0084",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "R0038",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0085",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "R0037",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0081",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "G0097",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "G0089",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "G0107",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "R0016",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "V0067",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "G0078",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Had I known about the traffic, I ___ earlier.",
+      "choices": [
+        "leave",
+        "would leave",
+        "would have left",
+        "left"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inverted conditional: Had + past participle, would have + past participle."
+    },
+    {
+      "id": "G0104",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "R0024",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nWhen people read on a screen, they often skim more than when they read on paper. One reason is that digital text encourages scrolling, which can reduce deep focus. Still, digital reading can be efficient for locating specific information quickly.\n\nQuestion: According to the passage, digital reading is useful for:",
+      "choices": [
+        "memorizing every detail",
+        "avoiding scrolling",
+        "finding specific information fast",
+        "eliminating skimming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says digital reading can be efficient for locating specific information."
+    },
+    {
+      "id": "V0055",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "L0027",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nStudent: 'I missed the first part of the lecture.'\nTutor: 'No worries. Review the summary notes, then try the practice questions.'\n\nQuestion: What should the student do first?",
+      "choices": [
+        "Try the practice questions",
+        "Review the summary notes",
+        "Skip the lecture",
+        "Ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tutor says review notes first."
+    },
+    {
+      "id": "G0001",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "If she ___ earlier, she would have caught the train.",
+      "choices": [
+        "left",
+        "had left",
+        "would leave",
+        "has left"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a third conditional: If + past perfect, would have + past participle."
+    },
+    {
+      "id": "G0041",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "L0017",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nStudent: 'I missed the first part of the lecture.'\nTutor: 'No worries. Review the summary notes, then try the practice questions.'\n\nQuestion: What should the student do first?",
+      "choices": [
+        "Try the practice questions",
+        "Review the summary notes",
+        "Skip the lecture",
+        "Ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tutor says review notes first."
+    },
+    {
+      "id": "G0101",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "L0014",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "V0008",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "If evidence is ___, it is not sufficient or convincing.",
+      "choices": [
+        "inconclusive",
+        "inclusive",
+        "incredible",
+        "independent"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Inconclusive' = not leading to a definite conclusion."
+    },
+    {
+      "id": "G0060",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "G0094",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "V0061",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "G0029",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "G0072",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "No sooner ___ the lesson than the quiz began.",
+      "choices": [
+        "did we start",
+        "had we started",
+        "we started",
+        "we had started"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'No sooner', use inversion with past perfect: 'No sooner had we started...'"
+    },
+    {
+      "id": "L0020",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "V0042",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ an idea means to explain it in detail.",
+      "choices": [
+        "elaborate on",
+        "eliminate",
+        "elevate",
+        "emulate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Elaborate on' = give more details."
+    },
+    {
+      "id": "V0035",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "L0039",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "G0093",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "G0068",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "V0015",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "To ___ from a mistake means to gain a lesson from it.",
+      "choices": [
+        "learn",
+        "lend",
+        "lean",
+        "leap"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Learn' fits the collocation 'learn from'."
+    },
+    {
+      "id": "V0072",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "If evidence is ___, it is not sufficient or convincing.",
+      "choices": [
+        "inconclusive",
+        "inclusive",
+        "incredible",
+        "independent"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Inconclusive' = not leading to a definite conclusion."
+    },
+    {
+      "id": "G0037",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "L0025",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "V0029",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "To ___ from a mistake means to gain a lesson from it.",
+      "choices": [
+        "learn",
+        "lend",
+        "lean",
+        "leap"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Learn' fits the collocation 'learn from'."
+    },
+    {
+      "id": "R0027",
+      "section": "reading",
+      "difficulty": "hard",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "R0021",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0054",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "G0100",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "L0040",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "G0116",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "L0037",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "R0010",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "G0020",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The committee recommended that the policy ___ immediately.",
+      "choices": [
+        "is revised",
+        "be revised",
+        "was revised",
+        "will revise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive uses 'be' + past participle: 'be revised'."
+    },
+    {
+      "id": "G0118",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "L0005",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    },
+    {
+      "id": "G0005",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Hardly ___ the announcement when the phones started ringing.",
+      "choices": [
+        "we heard",
+        "had we heard",
+        "did we hear",
+        "we had heard"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'hardly', inversion is used: 'Hardly had we heard...'"
+    },
+    {
+      "id": "V0002",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "Her argument was so ___ that everyone reconsidered their position.",
+      "choices": [
+        "compelling",
+        "complacent",
+        "composite",
+        "comparable"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Compelling' = very convincing."
+    },
+    {
+      "id": "G0022",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "G0080",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "No sooner ___ the lesson than the quiz began.",
+      "choices": [
+        "did we start",
+        "had we started",
+        "we started",
+        "we had started"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'No sooner', use inversion with past perfect: 'No sooner had we started...'"
+    },
+    {
+      "id": "G0052",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "Only after the exam ___ how much I had missed.",
+      "choices": [
+        "I realized",
+        "did I realize",
+        "I did realize",
+        "realized I"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'Only after', inversion is required: 'did I realize'."
+    },
+    {
+      "id": "V0021",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "The company plans to ___ its market share by entering new regions.",
+      "choices": [
+        "expand",
+        "expend",
+        "explode",
+        "exempt"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Expand' = increase/enlarge."
+    },
+    {
+      "id": "R0029",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0031",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "V0077",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "R0040",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nA small company introduced a four-day workweek and noticed a slight increase in productivity. Employees reported feeling less stressed and taking fewer sick days. Managers, however, had to redesign meetings and prioritize tasks more carefully.\n\nQuestion: Which statement is best supported by the passage?",
+      "choices": [
+        "Productivity decreased because employees worked fewer days.",
+        "Managers needed to adapt processes to make the change successful.",
+        "Employees became more stressed due to tighter schedules.",
+        "The four-day workweek eliminated the need for meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage states managers redesigned meetings/prioritized tasks."
+    },
+    {
+      "id": "G0120",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "L0032",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nAnnouncer: 'The train to Dammam is delayed due to maintenance. Passengers should proceed to platform 3 at 6:10.'\n\nQuestion: When should passengers go to platform 3?",
+      "choices": [
+        "6:10",
+        "3:00",
+        "6:30",
+        "5:10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The announcer says platform 3 at 6:10."
+    },
+    {
+      "id": "G0074",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He apologized for ___ the meeting without notice.",
+      "choices": [
+        "leave",
+        "leaving",
+        "left",
+        "to leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'for', use gerund: 'for leaving'."
+    },
+    {
+      "id": "V0013",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "V0062",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "Something that is ___ happens occasionally but not regularly.",
+      "choices": [
+        "sporadic",
+        "specific",
+        "spherical",
+        "spontaneous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Sporadic' = irregular."
+    },
+    {
+      "id": "G0075",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "V0006",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "L0011",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "G0056",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "V0058",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "To ___ an idea means to explain it in detail.",
+      "choices": [
+        "elaborate on",
+        "eliminate",
+        "elevate",
+        "emulate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Elaborate on' = give more details."
+    },
+    {
+      "id": "G0026",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "This is the first time I ___ such a challenging test.",
+      "choices": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present perfect is used with 'This is the first time'."
+    },
+    {
+      "id": "V0053",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "The company plans to ___ its market share by entering new regions.",
+      "choices": [
+        "expand",
+        "expend",
+        "explode",
+        "exempt"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Expand' = increase/enlarge."
+    },
+    {
+      "id": "L0009",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nAnnouncer: 'The train to Dammam is delayed due to maintenance. Passengers should proceed to platform 3 at 6:10.'\n\nQuestion: When should passengers go to platform 3?",
+      "choices": [
+        "6:10",
+        "3:00",
+        "6:30",
+        "5:10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The announcer says platform 3 at 6:10."
+    },
+    {
+      "id": "L0018",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nStudent: 'I missed the first part of the lecture.'\nTutor: 'No worries. Review the summary notes, then try the practice questions.'\n\nQuestion: What should the student do first?",
+      "choices": [
+        "Try the practice questions",
+        "Review the summary notes",
+        "Skip the lecture",
+        "Ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tutor says review notes first."
+    },
+    {
+      "id": "V0005",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "The lecture was too ___; it lacked practical examples.",
+      "choices": [
+        "abstract",
+        "absolute",
+        "abrupt",
+        "abundant"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Abstract' = theoretical, not concrete."
+    },
+    {
+      "id": "G0016",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "L0007",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "G0007",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "She insisted that he ___ the contract before signing.",
+      "choices": [
+        "reads",
+        "read",
+        "would read",
+        "has read"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'insist that', the base form is used (subjunctive): 'read'."
+    },
+    {
+      "id": "G0069",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "No sooner ___ the lesson than the quiz began.",
+      "choices": [
+        "did we start",
+        "had we started",
+        "we started",
+        "we had started"
+      ],
+      "answerIndex": 1,
+      "explanation": "After 'No sooner', use inversion with past perfect: 'No sooner had we started...'"
+    },
+    {
+      "id": "V0036",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "V0011",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "If evidence is ___, it is not sufficient or convincing.",
+      "choices": [
+        "inconclusive",
+        "inclusive",
+        "incredible",
+        "independent"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Inconclusive' = not leading to a definite conclusion."
+    },
+    {
+      "id": "V0050",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ benefit is an advantage that comes in addition to the main one.",
+      "choices": [
+        "supplementary",
+        "superficial",
+        "subsequent",
+        "submissive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Supplementary' = additional."
+    },
+    {
+      "id": "G0076",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The students demanded that the test ___ until next week.",
+      "choices": [
+        "postponed",
+        "be postponed",
+        "was postponing",
+        "postpones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subjunctive passive: 'be postponed'."
+    },
+    {
+      "id": "L0028",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nStudent: 'I missed the first part of the lecture.'\nTutor: 'No worries. Review the summary notes, then try the practice questions.'\n\nQuestion: What should the student do first?",
+      "choices": [
+        "Try the practice questions",
+        "Review the summary notes",
+        "Skip the lecture",
+        "Ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tutor says review notes first."
+    },
+    {
+      "id": "G0102",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "G0024",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "V0028",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ person is calm and not easily upset.",
+      "choices": [
+        "composed",
+        "complex",
+        "confined",
+        "conspicuous"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Composed' = calm."
+    },
+    {
+      "id": "L0006",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "G0040",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "V0076",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "L0013",
+      "section": "listening",
+      "difficulty": "medium",
+      "stem": "Transcript:\nAnnouncer: 'The train to Dammam is delayed due to maintenance. Passengers should proceed to platform 3 at 6:10.'\n\nQuestion: When should passengers go to platform 3?",
+      "choices": [
+        "6:10",
+        "3:00",
+        "6:30",
+        "5:10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The announcer says platform 3 at 6:10."
+    },
+    {
+      "id": "R0036",
+      "section": "reading",
+      "difficulty": "medium",
+      "stem": "Passage:\nSome scientists argue that learning a musical instrument can improve attention and self-discipline. Practice requires sustained focus, and progress is usually gradual. Yet the benefits vary depending on the amount and consistency of practice.\n\nQuestion: What does the passage suggest about the benefits of learning an instrument?",
+      "choices": [
+        "They are guaranteed for everyone.",
+        "They depend on consistent practice.",
+        "They appear only after one week.",
+        "They are unrelated to attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "It says benefits vary depending on amount/consistency of practice."
+    },
+    {
+      "id": "G0119",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "G0106",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "If you ___ the instructions carefully, you wouldn't be confused now.",
+      "choices": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: past perfect in the if-clause, present result."
+    },
+    {
+      "id": "V0001",
+      "section": "vocab",
+      "difficulty": "medium",
+      "stem": "The new policy aims to ___ unnecessary delays in processing applications.",
+      "choices": [
+        "alleviate",
+        "allocate",
+        "aggregate",
+        "alternate"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Alleviate' means reduce or make less severe."
+    },
+    {
+      "id": "V0016",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "If you ___ a rule, you break it.",
+      "choices": [
+        "violate",
+        "validate",
+        "venerate",
+        "visualize"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Violate' = break/disobey."
+    },
+    {
+      "id": "G0039",
+      "section": "grammar",
+      "difficulty": "hard",
+      "stem": "The book ___ on the table belongs to my sister.",
+      "choices": [
+        "laying",
+        "lying",
+        "lie",
+        "laid"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lying' is the present participle describing the book on the table."
+    },
+    {
+      "id": "V0010",
+      "section": "vocab",
+      "difficulty": "hard",
+      "stem": "A ___ solution is one that is likely to work and can be accepted.",
+      "choices": [
+        "feasible",
+        "fragile",
+        "fleeting",
+        "ferocious"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feasible' = practical/possible."
+    },
+    {
+      "id": "L0003",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nTeam lead: 'We can either submit a simple version today or a complete version tomorrow. The client values accuracy more than speed.'\n\nQuestion: What will the team likely do?",
+      "choices": [
+        "Submit the simple version today",
+        "Submit the complete version tomorrow",
+        "Cancel the project",
+        "Ignore the client"
+      ],
+      "answerIndex": 1,
+      "explanation": "If accuracy matters more, they will submit the complete version tomorrow."
+    },
+    {
+      "id": "G0034",
+      "section": "grammar",
+      "difficulty": "medium",
+      "stem": "He acts as if he ___ the answer, but he doesn't.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "had known"
+      ],
+      "answerIndex": 1,
+      "explanation": "As if + past simple to show unreal present situation."
+    },
+    {
+      "id": "L0030",
+      "section": "listening",
+      "difficulty": "hard",
+      "stem": "Transcript:\nCustomer: 'This device keeps restarting.'\nAgent: 'Have you installed the latest update? It fixes that bug.'\n\nQuestion: What is the agent's solution?",
+      "choices": [
+        "Replace the battery",
+        "Install the latest update",
+        "Buy a new device",
+        "Turn off the device forever"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent suggests installing the latest update."
+    }
+  ]
+}

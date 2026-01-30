@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "academyNameAr": "أكاديمية عايد STEP",
+    "academyNameEn": "Ayed STEP Academy",
+    "programName": "برنامج تحديد المستوى STEP 2026",
+    "tagline": "اختبار مستوى ذكي + تحليل فوري + خطة مذاكرة يومية — بدون تشتت",
+    "primaryColor": "#F7C948",
+    "secondaryColor": "#0B1220",
+    "accentColor": "#2DD4BF"
+  },
+  "links": {
+    "levelTestUrl": "https://ayedacademy2026.github.io/ayed-step-level-test/",
+    "intensiveCourseUrl": "https://ayedacademy2026.github.io/ayed-step-academy2026/",
+    "comprehensiveCourseUrl": "https://studentservices241445-rgb.github.io/Hilm-STEP-Academy/"
+  },
+  "reviews": {
+    "issueOwner": "ayedacademy2026",
+    "issueRepo": "ayed-step-level-test",
+    "issueTemplate": "review-submission.yml"
+  },
+  "popups": {
+    "baseIntervalSec": 45,
+    "jitterSec": 5
+  },
+  "quiz": {
+    "questionCount": 50
+  }
+}
