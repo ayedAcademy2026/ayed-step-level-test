@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220">
+  <defs>
+    <linearGradient id="tech" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="220" rx="34" fill="#0B1220"/>
+  <g transform="translate(44,44)">
+    <rect x="0" y="0" width="140" height="132" rx="28" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.12)"/>
+    <path d="M28 86c16-34 30-44 42-44s26 10 42 44" fill="none" stroke="url(#tech)" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="70" cy="42" r="10" fill="#F7C948"/>
+    <circle cx="40" cy="92" r="8" fill="rgba(255,255,255,.75)"/>
+    <circle cx="100" cy="92" r="8" fill="rgba(255,255,255,.75)"/>
+    <path d="M40 92h60" stroke="rgba(255,255,255,.28)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(210,62)" fill="#fff">
+    <text x="0" y="42" font-family="Tajawal, Arial" font-size="44" font-weight="900">أكاديمية عايد STEP</text>
+    <text x="0" y="86" font-family="Tajawal, Arial" font-size="22" font-weight="700" fill="rgba(255,255,255,.72)">Tech Education Direction</text>
+    <text x="0" y="128" font-family="Tajawal, Arial" font-size="18" font-weight="600" fill="rgba(255,255,255,.65)">واجهة ذكية • بيانات • تجربة متجر فخمة</text>
+  </g>
+</svg>

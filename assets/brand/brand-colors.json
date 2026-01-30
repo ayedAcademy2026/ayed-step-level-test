@@ -1,0 +1,22 @@
+{
+  "primary": {
+    "name": "Gold Sun",
+    "hex": "#F7C948"
+  },
+  "secondary": {
+    "name": "Midnight Navy",
+    "hex": "#0B1220"
+  },
+  "accent": {
+    "name": "Mint Teal",
+    "hex": "#2DD4BF"
+  },
+  "muted": {
+    "name": "Slate",
+    "hex": "#94A3B8"
+  },
+  "surface": {
+    "name": "Glass",
+    "hex": "rgba(255,255,255,0.06)"
+  }
+}
