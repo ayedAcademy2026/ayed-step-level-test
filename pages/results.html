@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<title>النتيجة والخطة — أكاديمية عايد STEP</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0B1220"/>
+<meta name="description" content="برنامج تحديد مستوى STEP 2026 + تحليل فوري + خطة مذاكرة يومية."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="../assets/brand/app-icon-256.png">
+<link rel="stylesheet" href="../assets/styles.css?v=3">
+
+</head>
+<body data-page="results.html">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="الصفحة الرئيسية">
+      <div class="logo"><img src="../assets/brand/app-icon-256.png" alt=""></div>
+      <div class="titles">
+        <div class="a">أكاديمية عايد STEP</div>
+        <div class="b">برنامج تحديد المستوى • تحليل فوري • خطة يومية</div>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="القائمة">
+      <a href="index.html">الرئيسية</a>
+      <a href="quiz.html">ابدأ الاختبار</a>
+      <a href="reviews.html">تقييمات الطلاب</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+      <a href="support.html">الدعم</a>
+    </nav>
+
+    <div class="header-cta">
+      <button class="icon-btn" data-open-drawer aria-label="فتح القائمة">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <a class="btn primary" href="quiz.html">ابدأ الآن</a>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop" aria-hidden="true"></div>
+<aside class="drawer" aria-label="قائمة الهاتف">
+  <header>
+    <div class="brand">
+      <div class="logo"><img src="../assets/brand/app-icon-256.png" alt=""></div>
+      <div class="titles">
+        <div class="a">أكاديمية عايد STEP</div>
+        <div class="b">تحديد المستوى 2026</div>
+      </div>
+    </div>
+    <button class="icon-btn" data-close-drawer aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </header>
+  <nav>
+    <a href="index.html">الرئيسية <small>تعريف + قصص نجاح + مؤشرات رضا</small></a>
+    <a href="quiz.html">ابدأ الاختبار <small>أسئلة قوية + تصحيح فوري + خطة</small></a>
+    <a href="reviews.html">تقييمات الطلاب <small>شات تقييمات + شارك تقييمك</small></a>
+    <a href="faq.html">الأسئلة الشائعة <small>كل شيء واضح</small></a>
+    <a href="support.html">الدعم <small>تواصل سريع + رقم طلب</small></a>
+  </nav>
+</aside>
+
+<div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+<div class="install-banner" role="dialog" aria-live="polite">
+  <div class="txt">
+    <div class="i">📲</div>
+    <div class="t">
+      <h4 style="margin:0">ثبّت البرنامج</h4>
+      <p>تقدر تثبته على جهازك ويصير مثل تطبيق — أسرع وأسهل.</p>
+    </div>
+  </div>
+  <div class="actions">
+    <button class="btn small primary" id="installBtn" type="button">تثبيت</button>
+    <button class="icon-btn" id="installClose" type="button" aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</div>
+
+
+<main class="container">
+  <section class="section">
+    <div class="title">
+      <h2>نتيجتك وخطتك</h2>
+      <p>النتيجة + تحليل الأقسام + خطة يومية + مشاركة + PDF.</p>
+    </div>
+
+    <div id="emptyState" class="card glass hidden">
+      <div class="inner">
+        <b>ما فيه نتيجة محفوظة</b>
+        <p class="mini">ابدأ الاختبار أولاً ثم ارجع لهنا.</p>
+        <a class="btn primary" href="quiz.html">ابدأ الاختبار</a>
+      </div>
+    </div>
+
+    <div id="resultsContent" class="hidden">
+      <div class="top-tabs" aria-label="تنقل سريع">
+        <a href="#summary" class="active">الملخص</a>
+        <a href="#analysis">التحليل</a>
+        <a href="#plan">الخطة</a>
+        <a href="#share">المشاركة</a>
+        <a href="#courses">الاقتراحات</a>
+      </div>
+
+      <div id="summary" class="card glass" style="margin-top:12px">
+        <div class="inner">
+          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; flex-wrap:wrap">
+            <div>
+              <div class="pill">اسمك: <b id="userName" style="color:var(--text)">—</b></div>
+              <h2 style="margin-top:10px">مجموعك: <span id="overallPercent" style="color:var(--primary)">—</span></h2>
+              <p class="lead" id="motivation" style="margin:6px 0 0">—</p>
+            </div>
+            <div style="min-width:220px">
+              <div class="pill">مستوى عام: <b id="overallLevel" style="color:var(--text)">—</b></div>
+              <div style="margin-top:12px; display:flex; align-items:center; gap:10px">
+                <div id="ratingStars"></div>
+                <span class="pill">أضعف قسم: <b id="weakSection" style="color:var(--text)">—</b></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sep"></div>
+
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <button class="btn primary" id="btnDownload" type="button">تحميل الخطة PDF</button>
+            <button class="btn" id="btnRestart" type="button">إعادة الاختبار</button>
+            <a class="btn ghost" href="reviews.html">تقييمات الطلاب</a>
+          </div>
+
+          <div class="print-note">ملاحظة: إذا تبي تحفظها PDF — اختر “Save as PDF” من نافذة الطباعة.</div>
+        </div>
+      </div>
+
+      <section id="analysis" class="section">
+        <div class="title">
+          <h2>تحليل الأقسام</h2>
+          <p>نعطيك اتجاه واضح لكل قسم + وش تسوي بعدها.</p>
+        </div>
+        <div class="grid-3">
+          <div id="cardGrammar"></div>
+          <div id="cardReading"></div>
+          <div id="cardListening"></div>
+        </div>
+      </section>
+
+      <section id="plan" class="section">
+        <div class="title">
+          <h2>الخطة اليومية</h2>
+          <p>مرتبة يوم/يوم. أهم شيء: التحاسب اليومي + مراجعة الأخطاء.</p>
+        </div>
+        <div id="planHost"></div>
+      </section>
+
+      <section id="share" class="section">
+        <div class="title">
+          <h2>مشاركة الخطة</h2>
+          <p>نص تسويقي مرتب — يشجّع أي أحد يجرب البرنامج (بدون روابط دورات).</p>
+        </div>
+        <div class="card glass">
+          <div class="inner">
+            <b>شاركها الآن</b>
+            <p class="mini">إذا جهازك يدعم “Share” بتطلع لك المشاركة مباشرة. إذا لا، بينسخ النص.</p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+              <button class="btn primary" id="btnShare" type="button">مشاركة/نسخ نص المشاركة</button>
+              <a class="btn" href="index.html">رجوع للرئيسية</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" class="section">
+        <div class="title">
+          <h2>اقتراحات تناسب وضعك</h2>
+          <p>مسارات متاحة — تختار اللي يناسب وقتك وهدفك.</p>
+        </div>
+        <div id="courseSuggest"></div>
+      </section>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="../assets/results.js?v=3"></script>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p><b>ملاحظة مهمة:</b> هذا برنامج تدريبي لتحديد المستوى وبناء خطة مذاكرة. الأسئلة مصممة على نمط الاختبار لتقييمك، وليست أسئلة قياس الرسمية.</p>
+      <p style="margin-top:10px">﴿ وَقُلْ رَبِّ زِدْنِي عِلْمًا ﴾ — نسأل الله لكم التوفيق والسداد.</p>
+    </div>
+    <div class="footer-links">
+      <a href="quiz.html">ابدأ الاختبار</a>
+      <a href="reviews.html">تقييمات الطلاب</a>
+      <a href="support.html">الدعم</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="../assets/app.js?v=3"></script>
+<script type="module" src="../assets/notifications.js?v=3"></script>
+</body>
+</html>

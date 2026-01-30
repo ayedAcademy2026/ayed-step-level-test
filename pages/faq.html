@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<title>الأسئلة الشائعة — أكاديمية عايد STEP</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0B1220"/>
+<meta name="description" content="برنامج تحديد مستوى STEP 2026 + تحليل فوري + خطة مذاكرة يومية."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="../assets/brand/app-icon-256.png">
+<link rel="stylesheet" href="../assets/styles.css?v=3">
+
+</head>
+<body data-page="faq.html">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="الصفحة الرئيسية">
+      <div class="logo"><img src="../assets/brand/app-icon-256.png" alt=""></div>
+      <div class="titles">
+        <div class="a">أكاديمية عايد STEP</div>
+        <div class="b">برنامج تحديد المستوى • تحليل فوري • خطة يومية</div>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="القائمة">
+      <a href="index.html">الرئيسية</a>
+      <a href="quiz.html">ابدأ الاختبار</a>
+      <a href="reviews.html">تقييمات الطلاب</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+      <a href="support.html">الدعم</a>
+    </nav>
+
+    <div class="header-cta">
+      <button class="icon-btn" data-open-drawer aria-label="فتح القائمة">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <a class="btn primary" href="quiz.html">ابدأ الآن</a>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop" aria-hidden="true"></div>
+<aside class="drawer" aria-label="قائمة الهاتف">
+  <header>
+    <div class="brand">
+      <div class="logo"><img src="../assets/brand/app-icon-256.png" alt=""></div>
+      <div class="titles">
+        <div class="a">أكاديمية عايد STEP</div>
+        <div class="b">تحديد المستوى 2026</div>
+      </div>
+    </div>
+    <button class="icon-btn" data-close-drawer aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </header>
+  <nav>
+    <a href="index.html">الرئيسية <small>تعريف + قصص نجاح + مؤشرات رضا</small></a>
+    <a href="quiz.html">ابدأ الاختبار <small>أسئلة قوية + تصحيح فوري + خطة</small></a>
+    <a href="reviews.html">تقييمات الطلاب <small>شات تقييمات + شارك تقييمك</small></a>
+    <a href="faq.html">الأسئلة الشائعة <small>كل شيء واضح</small></a>
+    <a href="support.html">الدعم <small>تواصل سريع + رقم طلب</small></a>
+  </nav>
+</aside>
+
+<div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+<div class="install-banner" role="dialog" aria-live="polite">
+  <div class="txt">
+    <div class="i">📲</div>
+    <div class="t">
+      <h4 style="margin:0">ثبّت البرنامج</h4>
+      <p>تقدر تثبته على جهازك ويصير مثل تطبيق — أسرع وأسهل.</p>
+    </div>
+  </div>
+  <div class="actions">
+    <button class="btn small primary" id="installBtn" type="button">تثبيت</button>
+    <button class="icon-btn" id="installClose" type="button" aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</div>
+
+
+<main class="container">
+  <section class="section">
+    <div class="title">
+      <h2>الأسئلة الشائعة</h2>
+      <p>كل شيء واضح — إذا احتجت شيء إضافي روح للدعم.</p>
+    </div>
+
+    <div class="card glass">
+      <div class="inner">
+        <div class="faq-item" style="border-bottom:1px solid rgba(255,255,255,.08); padding:12px 0">
+          <button aria-expanded="false" style="all:unset; cursor:pointer; display:flex; align-items:center; justify-content:space-between; width:100%; font-weight:900">
+            هل البرنامج رسمي؟
+            <span class="pill">+</span>
+          </button>
+          <div class="ans" style="display:none; margin-top:10px; color:rgba(255,255,255,.72); font-weight:800; line-height:1.95">
+            البرنامج موقع تدريبي لتحديد المستوى وبناء خطة مذاكرة. الأسئلة مصممة على نمط الاختبار للتقييم والتدريب، وليست أسئلة قياس الرسمية.
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-bottom:1px solid rgba(255,255,255,.08); padding:12px 0">
+          <button aria-expanded="false" style="all:unset; cursor:pointer; display:flex; align-items:center; justify-content:space-between; width:100%; font-weight:900">
+            كيف تطلع الخطة؟
+            <span class="pill">+</span>
+          </button>
+          <div class="ans" style="display:none; margin-top:10px; color:rgba(255,255,255,.72); font-weight:800; line-height:1.95">
+            الخطة تبنى من نتيجتك (تحليل الأقسام) + وقتك اليومي + كم باقي على اختبارك + تفضيلك للمذاكرة.
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-bottom:1px solid rgba(255,255,255,.08); padding:12px 0">
+          <button aria-expanded="false" style="all:unset; cursor:pointer; display:flex; align-items:center; justify-content:space-between; width:100%; font-weight:900">
+            هل أقدر أحمل الخطة PDF؟
+            <span class="pill">+</span>
+          </button>
+          <div class="ans" style="display:none; margin-top:10px; color:rgba(255,255,255,.72); font-weight:800; line-height:1.95">
+            نعم. من صفحة النتائج اضغط “تحميل الخطة PDF” ثم اختر “Save as PDF” من نافذة الطباعة.
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-bottom:1px solid rgba(255,255,255,.08); padding:12px 0">
+          <button aria-expanded="false" style="all:unset; cursor:pointer; display:flex; align-items:center; justify-content:space-between; width:100%; font-weight:900">
+            ليه بعض التقييمات ما تظهر؟
+            <span class="pill">+</span>
+          </button>
+          <div class="ans" style="display:none; margin-top:10px; color:rgba(255,255,255,.72); font-weight:800; line-height:1.95">
+            سياسة العرض: لا يظهر أي تقييم إلا إذا كان معتمد (approved=true) ومع موافقة نشر واضحة (consent=true).
+          </div>
+        </div>
+
+        <div class="faq-item" style="padding:12px 0">
+          <button aria-expanded="false" style="all:unset; cursor:pointer; display:flex; align-items:center; justify-content:space-between; width:100%; font-weight:900">
+            الإشعارات المنبثقة تزعجني؟
+            <span class="pill">+</span>
+          </button>
+          <div class="ans" style="display:none; margin-top:10px; color:rgba(255,255,255,.72); font-weight:800; line-height:1.95">
+            الإشعارات تظهر كل 45 ثانية تقريبًا (مع تفاوت بسيط)، وتتوقف تلقائيًا أثناء صفحة الاختبار. تقدر تقفل أي إشعار من زر ×.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card glass" style="margin-top:12px">
+      <div class="inner">
+        <b>ما لقيت جوابك؟</b>
+        <p class="mini">ارسل لنا من صفحة الدعم وبيطلع لك رقم طلب فورًا.</p>
+        <a class="btn primary" href="support.html">اذهب للدعم</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="../assets/faq.js?v=3"></script>
+<script>
+  // tiny accordion toggle for .ans
+  document.addEventListener('click', (e)=>{
+    const btn = e.target.closest('.faq-item button');
+    if(!btn) return;
+    const item = btn.closest('.faq-item');
+    const ans = item.querySelector('.ans');
+    const open = item.classList.toggle('open');
+    document.querySelectorAll('.faq-item').forEach(it=>{ if(it!==item) it.classList.remove('open'); });
+    document.querySelectorAll('.faq-item .ans').forEach(a=>{ a.style.display = 'none'; });
+    if(ans) ans.style.display = open ? 'block':'none';
+  });
+</script>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p><b>ملاحظة مهمة:</b> هذا برنامج تدريبي لتحديد المستوى وبناء خطة مذاكرة. الأسئلة مصممة على نمط الاختبار لتقييمك، وليست أسئلة قياس الرسمية.</p>
+      <p style="margin-top:10px">﴿ وَقُلْ رَبِّ زِدْنِي عِلْمًا ﴾ — نسأل الله لكم التوفيق والسداد.</p>
+    </div>
+    <div class="footer-links">
+      <a href="quiz.html">ابدأ الاختبار</a>
+      <a href="reviews.html">تقييمات الطلاب</a>
+      <a href="support.html">الدعم</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="../assets/app.js?v=3"></script>
+<script type="module" src="../assets/notifications.js?v=3"></script>
+</body>
+</html>

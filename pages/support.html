@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<title>الدعم — أكاديمية عايد STEP</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0B1220"/>
+<meta name="description" content="برنامج تحديد مستوى STEP 2026 + تحليل فوري + خطة مذاكرة يومية."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="../assets/brand/app-icon-256.png">
+<link rel="stylesheet" href="../assets/styles.css?v=3">
+
+</head>
+<body data-page="support.html">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="الصفحة الرئيسية">
+      <div class="logo"><img src="../assets/brand/app-icon-256.png" alt=""></div>
+      <div class="titles">
+        <div class="a">أكاديمية عايد STEP</div>
+        <div class="b">برنامج تحديد المستوى • تحليل فوري • خطة يومية</div>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="القائمة">
+      <a href="index.html">الرئيسية</a>
+      <a href="quiz.html">ابدأ الاختبار</a>
+      <a href="reviews.html">تقييمات الطلاب</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+      <a href="support.html">الدعم</a>
+    </nav>
+
+    <div class="header-cta">
+      <button class="icon-btn" data-open-drawer aria-label="فتح القائمة">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <a class="btn primary" href="quiz.html">ابدأ الآن</a>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop" aria-hidden="true"></div>
+<aside class="drawer" aria-label="قائمة الهاتف">
+  <header>
+    <div class="brand">
+      <div class="logo"><img src="../assets/brand/app-icon-256.png" alt=""></div>
+      <div class="titles">
+        <div class="a">أكاديمية عايد STEP</div>
+        <div class="b">تحديد المستوى 2026</div>
+      </div>
+    </div>
+    <button class="icon-btn" data-close-drawer aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </header>
+  <nav>
+    <a href="index.html">الرئيسية <small>تعريف + قصص نجاح + مؤشرات رضا</small></a>
+    <a href="quiz.html">ابدأ الاختبار <small>أسئلة قوية + تصحيح فوري + خطة</small></a>
+    <a href="reviews.html">تقييمات الطلاب <small>شات تقييمات + شارك تقييمك</small></a>
+    <a href="faq.html">الأسئلة الشائعة <small>كل شيء واضح</small></a>
+    <a href="support.html">الدعم <small>تواصل سريع + رقم طلب</small></a>
+  </nav>
+</aside>
+
+<div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+<div class="install-banner" role="dialog" aria-live="polite">
+  <div class="txt">
+    <div class="i">📲</div>
+    <div class="t">
+      <h4 style="margin:0">ثبّت البرنامج</h4>
+      <p>تقدر تثبته على جهازك ويصير مثل تطبيق — أسرع وأسهل.</p>
+    </div>
+  </div>
+  <div class="actions">
+    <button class="btn small primary" id="installBtn" type="button">تثبيت</button>
+    <button class="icon-btn" id="installClose" type="button" aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</div>
+
+
+<main class="container">
+  <section class="section">
+    <div class="title">
+      <h2>الدعم</h2>
+      <p>اكتب استفسارك… وبعد الإرسال بيطلع لك رقم طلب + رسالة تطمين.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card glass">
+        <div class="inner">
+          <b>نموذج الدعم</b>
+          <div class="sep"></div>
+          <form id="supportForm" class="form">
+            <div class="field">
+              <label>الاسم (اختياري)</label>
+              <input class="input" id="s_name" placeholder="مثال: عبدالله">
+            </div>
+            <div class="field">
+              <label>نوع الطلب</label>
+              <select id="s_topic" required>
+                <option value="">اختر…</option>
+                <option value="quiz">مشكلة في الاختبار</option>
+                <option value="results">مشكلة في النتائج/الخطة</option>
+                <option value="review">تقييمات/اعتماد</option>
+                <option value="suggestion">اقتراح تطوير</option>
+                <option value="other">أخرى</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>تفاصيل الرسالة</label>
+              <textarea id="s_msg" placeholder="اكتب التفاصيل… (مثال: الصفحه ما تفتح / زر ما يشتغل / اقتراحك)"></textarea>
+              <p class="hint">أكتب تفاصيل كفاية عشان نخدمك بسرعة.</p>
+            </div>
+            <button class="btn primary" type="submit">إرسال</button>
+          </form>
+        </div>
+      </div>
+
+      <div>
+        <div id="supportSuccess" class="card glass hidden">
+          <div class="inner">
+            <b>شكراً لتواصلك معنا ✅</b>
+            <p class="mini">تم استلام طلبك، وسيتم النظر فيه والعمل عليه بإذن الله.</p>
+            <div class="sep"></div>
+            <div class="pill">رقم الطلب: <b id="ticketId" style="color:var(--text)">—</b></div>
+            <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap">
+              <button class="btn" id="copyTicket" type="button">نسخ رقم الطلب</button>
+              <a class="btn primary" href="quiz.html">الرجوع للاختبار</a>
+            </div>
+            <p class="hint" style="margin-top:12px">قد تظهر لك إشعارات “تم تسجيل الطلب” للتأكيد والطمأنينة.</p>
+          </div>
+        </div>
+
+        <div class="card glass" style="margin-top:12px">
+          <div class="inner">
+            <b>أشياء تساعدنا نحل بسرعة</b>
+            <div class="sep"></div>
+            <div class="list">
+              <div class="li"><div class="badge">1</div><div><b>وش الصفحة؟</b><div class="mini">مثال: Quiz / Results / Reviews</div></div></div>
+              <div class="li"><div class="badge">2</div><div><b>وش اللي صار؟</b><div class="mini">اكتب الخطوات اللي سويتها قبل المشكلة.</div></div></div>
+              <div class="li"><div class="badge">3</div><div><b>نوع الجهاز</b><div class="mini">جوال/كمبيوتر + المتصفح إن أمكن.</div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="../assets/support.js?v=3"></script>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p><b>ملاحظة مهمة:</b> هذا برنامج تدريبي لتحديد المستوى وبناء خطة مذاكرة. الأسئلة مصممة على نمط الاختبار لتقييمك، وليست أسئلة قياس الرسمية.</p>
+      <p style="margin-top:10px">﴿ وَقُلْ رَبِّ زِدْنِي عِلْمًا ﴾ — نسأل الله لكم التوفيق والسداد.</p>
+    </div>
+    <div class="footer-links">
+      <a href="quiz.html">ابدأ الاختبار</a>
+      <a href="reviews.html">تقييمات الطلاب</a>
+      <a href="support.html">الدعم</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="../assets/app.js?v=3"></script>
+<script type="module" src="../assets/notifications.js?v=3"></script>
+</body>
+</html>

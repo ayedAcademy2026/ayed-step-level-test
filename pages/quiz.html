@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<title>اختبار تحديد المستوى — أكاديمية عايد STEP</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0B1220"/>
+<meta name="description" content="برنامج تحديد مستوى STEP 2026 + تحليل فوري + خطة مذاكرة يومية."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="../assets/brand/app-icon-256.png">
+<link rel="stylesheet" href="../assets/styles.css?v=3">
+
+</head>
+<body data-page="quiz.html">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="الصفحة الرئيسية">
+      <div class="logo"><img src="../assets/brand/app-icon-256.png" alt=""></div>
+      <div class="titles">
+        <div class="a">أكاديمية عايد STEP</div>
+        <div class="b">برنامج تحديد المستوى • تحليل فوري • خطة يومية</div>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="القائمة">
+      <a href="index.html">الرئيسية</a>
+      <a href="quiz.html">ابدأ الاختبار</a>
+      <a href="reviews.html">تقييمات الطلاب</a>
+      <a href="faq.html">الأسئلة الشائعة</a>
+      <a href="support.html">الدعم</a>
+    </nav>
+
+    <div class="header-cta">
+      <button class="icon-btn" data-open-drawer aria-label="فتح القائمة">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <a class="btn primary" href="quiz.html">ابدأ الآن</a>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop" aria-hidden="true"></div>
+<aside class="drawer" aria-label="قائمة الهاتف">
+  <header>
+    <div class="brand">
+      <div class="logo"><img src="../assets/brand/app-icon-256.png" alt=""></div>
+      <div class="titles">
+        <div class="a">أكاديمية عايد STEP</div>
+        <div class="b">تحديد المستوى 2026</div>
+      </div>
+    </div>
+    <button class="icon-btn" data-close-drawer aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </header>
+  <nav>
+    <a href="index.html">الرئيسية <small>تعريف + قصص نجاح + مؤشرات رضا</small></a>
+    <a href="quiz.html">ابدأ الاختبار <small>أسئلة قوية + تصحيح فوري + خطة</small></a>
+    <a href="reviews.html">تقييمات الطلاب <small>شات تقييمات + شارك تقييمك</small></a>
+    <a href="faq.html">الأسئلة الشائعة <small>كل شيء واضح</small></a>
+    <a href="support.html">الدعم <small>تواصل سريع + رقم طلب</small></a>
+  </nav>
+</aside>
+
+<div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+<div class="install-banner" role="dialog" aria-live="polite">
+  <div class="txt">
+    <div class="i">📲</div>
+    <div class="t">
+      <h4 style="margin:0">ثبّت البرنامج</h4>
+      <p>تقدر تثبته على جهازك ويصير مثل تطبيق — أسرع وأسهل.</p>
+    </div>
+  </div>
+  <div class="actions">
+    <button class="btn small primary" id="installBtn" type="button">تثبيت</button>
+    <button class="icon-btn" id="installClose" type="button" aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</div>
+
+
+<main class="container">
+  <section class="section">
+    <div class="title">
+      <h2>اختبار تحديد المستوى</h2>
+      <p>أسئلة قوية + تصحيح فوري + خطة مذاكرة يومية تناسبك.</p>
+    </div>
+
+    <div id="introCard" class="card glass">
+      <div class="inner">
+        <div class="pill">﴿ وَقُلْ رَبِّ زِدْنِي عِلْمًا ﴾</div>
+        <h3 style="margin-top:12px">قبل ما تبدأ</h3>
+        <p class="lead">خلك هادي… الاختبار هذا يقيس مستواك ويعطيك اتجاه وخطة. الإجابة تظهر نتيجتها فورًا عشان تتعلم من الخطأ بنفس اللحظة.</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px">
+          <button class="btn primary" id="btnStartWizard" type="button">ابدأ</button>
+          <a class="btn" href="index.html">رجوع للرئيسية</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="resumeCard" class="card glass hidden" style="margin-top:12px">
+      <div class="inner">
+        <b>فيه اختبار غير مكتمل على جهازك</b>
+        <p class="mini">تقدر تكمل من نفس السؤال، أو تمسح التقدم وتبدأ من جديد.</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+          <button class="btn primary" id="btnResume" type="button">متابعة</button>
+          <button class="btn" id="btnReset" type="button">مسح التقدم</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="wizardCard" class="card glass hidden" style="margin-top:12px">
+      <div class="inner">
+        <h3 style="margin:0 0 6px">معلومات بسيطة… عشان نطلع لك خطة أدق</h3>
+        <p class="mini">البيانات تساعدنا نطلع لك جدول يناسب وقتك. (الاسم اختياري)</p>
+
+        <form class="form" id="wizardForm" onsubmit="return false;">
+          <div class="grid-2">
+            <div class="field">
+              <label>اسمك (اختياري)</label>
+              <input class="input" id="p_name" placeholder="مثال: شهد / عبدالله" />
+            </div>
+            <div class="field">
+              <label>الدرجة المستهدفة (إجباري)</label>
+              <input class="input" id="p_targetScore" type="number" min="40" max="100" placeholder="مثال: 80" />
+              <p class="hint">من 40 إلى 100</p>
+            </div>
+          </div>
+
+          <div class="card glass" style="padding:14px">
+            <b>هل سبق اختبرت STEP؟</b>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+              <label class="pill"><input type="radio" name="tookBefore" value="no" checked> لا</label>
+              <label class="pill"><input type="radio" name="tookBefore" value="yes"> نعم</label>
+            </div>
+
+            <div id="prevScoreBox" class="grid-2 hidden" style="margin-top:10px">
+              <div class="field">
+                <label>كم درجتك السابقة؟</label>
+                <input class="input" id="p_prevScore" type="number" min="40" max="100" placeholder="مثال: 65" />
+              </div>
+              <div class="field">
+                <label>كم درجتك المستهدفة؟</label>
+                <input class="input" id="p_targetScore2" type="number" min="40" max="100" placeholder="مثال: 80" />
+                <p class="hint">إذا عبّيت فوق يكفي — هذا فقط تأكيد</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <div class="card glass" style="padding:14px">
+              <b>كم باقي على اختبارك؟</b>
+              <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+                <label class="pill"><input type="radio" name="daysToExam" value="7"> 7 أيام</label>
+                <label class="pill"><input type="radio" name="daysToExam" value="14"> 14 يوم</label>
+                <label class="pill"><input type="radio" name="daysToExam" value="30" checked> 30 يوم</label>
+                <label class="pill"><input type="radio" name="daysToExam" value="60"> 60 يوم</label>
+              </div>
+              <p class="hint">الخطة تطلع بطول يناسب وقتك.</p>
+            </div>
+
+            <div class="card glass" style="padding:14px">
+              <b>وقت مذاكرتك اليومي</b>
+              <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+                <label class="pill"><input type="radio" name="dailyTime" value="30"> 30 دقيقة</label>
+                <label class="pill"><input type="radio" name="dailyTime" value="45"> 45 دقيقة</label>
+                <label class="pill"><input type="radio" name="dailyTime" value="60" checked> 60 دقيقة</label>
+                <label class="pill"><input type="radio" name="dailyTime" value="90"> 90 دقيقة</label>
+              </div>
+              <p class="hint">عشان نرتب لك الجلسات (مركز + تطبيق + مراجعة).</p>
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <div class="card glass" style="padding:14px">
+              <b>الوقت الأنسب للمذاكرة</b>
+              <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+                <label class="pill"><input type="radio" name="bestTime" value="morning"> صباح</label>
+                <label class="pill"><input type="radio" name="bestTime" value="afternoon"> ظهر</label>
+                <label class="pill"><input type="radio" name="bestTime" value="night" checked> ليل</label>
+              </div>
+            </div>
+
+            <div class="card glass" style="padding:14px">
+              <b>طريقتك المفضلة للمذاكرة</b>
+              <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+                <label class="pill"><input type="radio" name="studyPreference" value="short" checked> مقاطع قصيرة منظمة</label>
+                <label class="pill"><input type="radio" name="studyPreference" value="recorded"> محاضرات مسجلة</label>
+                <label class="pill"><input type="radio" name="studyPreference" value="live"> شرح مباشر</label>
+              </div>
+              <p class="hint">نستخدمها لتوجيهك لاختيار المسار الأنسب.</p>
+            </div>
+          </div>
+
+          <div class="card glass" style="padding:14px">
+            <b>مرحلتك الدراسية</b>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+              <label class="pill"><input type="radio" name="stage" value="highschool"> ثانوي</label>
+              <label class="pill"><input type="radio" name="stage" value="university" checked> جامعي</label>
+              <label class="pill"><input type="radio" name="stage" value="postgrad"> دراسات عليا</label>
+              <label class="pill"><input type="radio" name="stage" value="employee"> موظف</label>
+              <label class="pill"><input type="radio" name="stage" value="other"> أخرى</label>
+            </div>
+
+            <div id="stageDetailBox" class="field hidden" style="margin-top:10px">
+              <label>المسار/التخصص (اختياري)</label>
+              <input class="input" id="p_stageDetail" placeholder="مثال: سنة ثانية • تمريض / هندسة / ...">
+            </div>
+          </div>
+
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <button class="btn primary" id="btnContinueQuiz" type="button">ابدأ الأسئلة</button>
+            <a class="btn" href="index.html">إلغاء</a>
+          </div>
+
+          <p class="hint">بداية الاختبار = موافقتك على استخدام البيانات لإخراج خطة مخصصة داخل جهازك فقط.</p>
+        </form>
+      </div>
+    </div>
+
+    <div id="quizCard" class="card glass quiz-card hidden" style="margin-top:12px">
+      <div class="inner">
+        <div class="progress" aria-label="شريط التقدم"><div id="progressFill"></div></div>
+        <div id="quizHost" style="margin-top:12px"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="../assets/quiz.js?v=3"></script>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p><b>ملاحظة مهمة:</b> هذا برنامج تدريبي لتحديد المستوى وبناء خطة مذاكرة. الأسئلة مصممة على نمط الاختبار لتقييمك، وليست أسئلة قياس الرسمية.</p>
+      <p style="margin-top:10px">﴿ وَقُلْ رَبِّ زِدْنِي عِلْمًا ﴾ — نسأل الله لكم التوفيق والسداد.</p>
+    </div>
+    <div class="footer-links">
+      <a href="quiz.html">ابدأ الاختبار</a>
+      <a href="reviews.html">تقييمات الطلاب</a>
+      <a href="support.html">الدعم</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="../assets/app.js?v=3"></script>
+<script type="module" src="../assets/notifications.js?v=3"></script>
+</body>
+</html>
