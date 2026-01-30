@@ -1,370 +1,0 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="theme-color" content="#070a12"/>
-  <meta name="description" content="اختبار تحديد مستوى STEP (50 سؤال) + خطة مذاكرة يومية + مشاركة جاهزة — مبني على نمط النماذج الحديثة حتى 51."/>
-  <title>أكاديمية عايد | اختبار تحديد المستوى (STEP 2026)</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=202601300200">
-  <link rel="manifest" href="manifest.json">
-</head>
-
-<style>
-  body.page-home{ --grad1: rgba(255,200,60,.10); --grad2: rgba(90,160,255,.08); }
-  .home-hero-badge{ display:inline-flex; gap:8px; align-items:center; padding:8px 12px; border-radius:999px; border:1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.06); font-weight:800; }
-  .reviews-grid{ display:grid; grid-template-columns: repeat(12,1fr); gap:12px; }
-  .review-card{ grid-column: span 6; }
-  @media (max-width: 860px){ .review-card{ grid-column: span 12; } }
-  .rating{ display:flex; gap:4px; align-items:center; }
-  .rating svg{ width:18px; height:18px; }
-  .rating .on path{ fill: rgba(255,200,60,.95); }
-  .rating .off path{ fill: rgba(255,255,255,.18); }
-  .avatar-badge{ width:44px; height:44px; border-radius:16px; display:grid; place-items:center; font-weight:900; background: rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.12); }
-  .mini-muted{ color: var(--muted); font-weight:700; font-size:12.5px; }
-</style>
-
-<body class="page-home">
-
-
-  <div class="install-banner" role="region" aria-label="تثبيت الموقع كتطبيق">
-    <div class="txt">
-      <div class="i">✨</div>
-      <div class="t">
-        <h4 style="margin:0">ثبّت الموقع كتطبيق</h4>
-        <p style="margin:3px 0 0">واجهة تطبيق + وصول أسرع — (اختياري).</p>
-      </div>
-    </div>
-    <div class="actions">
-      <button id="installBtn" class="btn small primary">تثبيت</button>
-      <button id="installClose" class="btn small ghost">لاحقاً</button>
-    </div>
-  </div>
-
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="العودة للرئيسية">
-        <div class="logo"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-  <path d="M12 2.6c3.7 0 6.7 3 6.7 6.7 0 5-6.7 12.6-6.7 12.6S5.3 14.3 5.3 9.3c0-3.7 3-6.7 6.7-6.7Z" stroke="rgba(255,255,255,.92)" stroke-width="1.6"/>
-  <path d="M9.2 9.4 11 11.2 14.8 7.4" stroke="rgba(255,255,255,.92)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div>
-        <div class="titles">
-          <div class="academy">أكاديمية عايد</div>
-          <div class="course">اختبار تحديد المستوى — STEP 2026</div>
-        </div>
-      </a>
-
-      <nav class="nav" aria-label="التنقل الرئيسي">
-        <a href="index.html">الرئيسية</a>
-        <a href="level-test.html">اختبار المستوى</a>
-        <a href="results.html">النتائج</a>
-        <a href="faq.html">الأسئلة الشائعة</a>
-        <a href="support.html">الدعم</a>
-      </nav>
-
-      <div class="header-cta">
-        <button class="icon-btn menu-btn" data-open-drawer aria-label="فتح القائمة"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M4 7h16M4 12h16M4 17h16" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
-        </svg></button>
-        <a class="btn small primary" href="level-test.html">ابدأ الاختبار</a>
-      </div>
-    </div>
-  </header>
-
-  <div class="drawer-backdrop"></div>
-  <aside class="drawer" aria-label="قائمة الجوال">
-    <header>
-      <div style="display:flex; align-items:center; gap:10px">
-        <div class="logo" style="width:38px;height:38px;border-radius:16px;display:grid;place-items:center"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-  <path d="M12 2.6c3.7 0 6.7 3 6.7 6.7 0 5-6.7 12.6-6.7 12.6S5.3 14.3 5.3 9.3c0-3.7 3-6.7 6.7-6.7Z" stroke="rgba(255,255,255,.92)" stroke-width="1.6"/>
-  <path d="M9.2 9.4 11 11.2 14.8 7.4" stroke="rgba(255,255,255,.92)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div>
-        <div style="line-height:1.1">
-          <div style="font-weight:900">أكاديمية عايد</div>
-          <div style="color:var(--muted); font-size:12px; font-weight:700">اختبار تحديد المستوى</div>
-        </div>
-      </div>
-      <button class="icon-btn" data-close-drawer aria-label="إغلاق القائمة"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path d="M6 6l12 12M18 6 6 18" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
-      </svg></button>
-    </header>
-    <nav>
-      <a href="index.html">الرئيسية <small>نظرة سريعة + الثقة</small></a>
-      <a href="level-test.html">اختبار المستوى <small>50 سؤال + حفظ التقدم</small></a>
-      <a href="results.html">النتائج <small>الخطة + المشاركة</small></a>
-      <a href="faq.html">الأسئلة الشائعة <small>كل شيء واضح</small></a>
-      <a href="support.html">الدعم <small>تذكرة/بلاغ</small></a>
-      <a href="privacy.html">الخصوصية <small>حماية البيانات</small></a>
-      <a href="terms.html">الشروط <small>تعهدات الاستخدام</small></a>
-      <a href="404.html">404 <small>تجربة</small></a>
-    </nav>
-  </aside>
-
-
-  <main class="container">
-    <section class="hero">
-      <div class="grid-2">
-        <div class="hero-card">
-          <div class="inner">
-            <div class="home-hero-badge"><span class="dot"></span>محاكاة تدريبية حديثة • 50 سؤال • خطة فورية</div>
-            <h1 style="margin-top:10px">اختبار تحديد المستوى — يطلع لك خطة مذاكرة “تشتغل”</h1>
-            <p class="lead">
-              بدل ما تتشتت بين مصادر… سوّ اختبارنا (Grammar/Reading/Listening) وخل الخطة تمسك يدك خطوة بخطوة.
-              <br><b>الأهم:</b> الخطة قابلة للمشاركة بنص جاهز — عشان تلتزم وتحمّس غيرك يجرب.
-            </p>
-
-            <div class="inline-actions">
-              <a class="btn primary" href="level-test.html">ابدأ الاختبار الآن</a>
-              <a class="btn outline" href="faq.html">قبل ما تبدأ</a>
-              <a class="btn ghost" href="support.html">عندي استفسار</a>
-            </div>
-
-            <div class="sep"></div>
-            <div class="grid-3">
-              <div class="card" style="padding:14px">
-                <b>⚡ سريع وواضح</b>
-                <p style="margin:8px 0 0; color:var(--muted); line-height:1.9">سؤال واحد بالشاشة + تقدر ترجع لأي سؤال + حفظ تلقائي للتقدم.</p>
-              </div>
-              <div class="card" style="padding:14px">
-                <b>🧠 خطة مرتبطة بالنتيجة</b>
-                <p style="margin:8px 0 0; color:var(--muted); line-height:1.9">نحدّد أضعف قسم عندك، ونبني جدول يناسب وقتك (يوم/3 أيام/أسبوع/شهر).</p>
-              </div>
-              <div class="card" style="padding:14px">
-                <b>📣 مشاركة تسويقية ذكية</b>
-                <p style="margin:8px 0 0; color:var(--muted); line-height:1.9">نص مشاركة منسّق + رابط الموقع + توجيه للخيار الأنسب.</p>
-              </div>
-            </div>
-
-            <div class="sep"></div>
-            <div class="card glass" style="padding:14px">
-              <b>دعاء وتحفيز 💛</b>
-              <p style="margin:8px 0 0; color:var(--muted); line-height:1.9">
-                ﴿ وَقُلْ رَبِّ زِدْنِي عِلْمًا ﴾
-                — الله يكتب لك التوفيق. لا تبي “مثالية”.. تبي “ثبات”.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card glass" style="padding:18px">
-          <b>كيف تمشي معك؟</b>
-          <div class="sep"></div>
-          <div class="list">
-            <div class="li">
-              <span class="badge">1</span>
-              <div>
-                <b>عبّي معلومات بسيطة</b>
-                <div class="mini-muted">هدفك + وقت الاختبار + هل جربت دورات قبل؟</div>
-              </div>
-            </div>
-            <div class="li">
-              <span class="badge">2</span>
-              <div>
-                <b>اختبار 50 سؤال</b>
-                <div class="mini-muted">مستوحى من نمط النماذج الحديثة حتى 51 (محاكاة تدريبية)</div>
-              </div>
-            </div>
-            <div class="li">
-              <span class="badge">3</span>
-              <div>
-                <b>نتيجة + خطة يومية</b>
-                <div class="mini-muted">تحليل الأقسام + جدول واضح + نص مشاركة جاهز</div>
-              </div>
-            </div>
-            <div class="li">
-              <span class="badge">4</span>
-              <div>
-                <b>توصية بالطريق الأنسب</b>
-                <div class="mini-muted">موقع الدورة المكثفة + خيار النجوم + الدورة الشاملة</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="sep"></div>
-          <div class="hint-box">
-            <b>تنبيه لطيف ضد الحسابات الوهمية 🛡️</b>
-            <p style="margin:6px 0 0; color:var(--muted); line-height:1.9">
-              في الفترة الأخيرة كثرت محاولات الاحتيال. لا تشارك معلوماتك ولا تحوّل مبالغ إلا عبر الروابط الرسمية داخل مواقعنا.
-              نشكر حكومتنا على نعمة الأمن والأمان 🇸🇦
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="title">
-        <h2>مؤشرات رضا وتجارب (نمط “متجر”)</h2>
-        <p>تعليقات مختصرة كأنها من حسابات طلاب — تعطيك الصورة بسرعة</p>
-      </div>
-
-      <div class="stats">
-        <div class="stat">
-          <div class="num">4.9/5</div>
-          <div class="lbl">متوسط التقييم</div>
-        </div>
-        <div class="stat">
-          <div class="num">97%</div>
-          <div class="lbl">رضا عن التنظيم</div>
-        </div>
-        <div class="stat">
-          <div class="num">+200</div>
-          <div class="lbl">سؤال في بنك الأسئلة</div>
-        </div>
-        <div class="stat">
-          <div class="num">50</div>
-          <div class="lbl">سؤال لكل اختبار</div>
-        </div>
-      </div>
-
-      <div class="sep"></div>
-
-      <div class="reviews-grid">
-        <div class="card glass review-card" style="padding:14px">
-          <div style="display:flex; gap:12px; align-items:flex-start">
-            <div class="avatar-badge">ش</div>
-            <div>
-              <div style="font-weight:900">شهد المالكي</div>
-              <div class="mini-muted">“الخطة خلّتني ألتزم… وصرت أعرف وش أراجع اليوم.”</div>
-              <div class="rating" aria-label="تقييم 5 نجوم" style="margin-top:8px">
-                <svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg>
-              </div>
-              <p style="margin:10px 0 0; color:var(--muted); line-height:1.9">
-                نصيحتي للبنات: لا تكثرين مصادر… خلي مصدر واحد + تدريب يومي وبتشوفين فرق.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card glass review-card" style="padding:14px">
-          <div style="display:flex; gap:12px; align-items:flex-start">
-            <div class="avatar-badge">ت</div>
-            <div>
-              <div style="font-weight:900">تركي القحطاني</div>
-              <div class="mini-muted">“فكرة مشاركة الخطة لحالها تخلّيك تلتزم.”</div>
-              <div class="rating" aria-label="تقييم 5 نجوم" style="margin-top:8px">
-                <svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg>
-              </div>
-              <p style="margin:10px 0 0; color:var(--muted); line-height:1.9">
-                كنت أتردد… بس يوم شفت الخطة منظمة، عرفت وين الغلط وبدأت صح.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card glass review-card" style="padding:14px">
-          <div style="display:flex; gap:12px; align-items:flex-start">
-            <div class="avatar-badge">م</div>
-            <div>
-              <div style="font-weight:900">منال التويجري</div>
-              <div class="mini-muted">“تحديد المستوى عطاني مسار… قبلها كنت ألف.”</div>
-              <div class="rating" aria-label="تقييم 5 نجوم" style="margin-top:8px">
-                <svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg>
-              </div>
-              <p style="margin:10px 0 0; color:var(--muted); line-height:1.9">
-                أكثر شيء عجبني: أسئلة قوية + تفسير الإجابة.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card glass review-card" style="padding:14px">
-          <div style="display:flex; gap:12px; align-items:flex-start">
-            <div class="avatar-badge">ف</div>
-            <div>
-              <div style="font-weight:900">فهد السبيعي</div>
-              <div class="mini-muted">“الواجهة مريحة… ما فيها زحمة.”</div>
-              <div class="rating" aria-label="تقييم 5 نجوم" style="margin-top:8px">
-                <svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg><svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z"/></svg>
-              </div>
-              <p style="margin:10px 0 0; color:var(--muted); line-height:1.9">
-                ما أخذت وقت كثير… بس عطاني قرار واضح: مكثفة ولا شاملة ولا نجوم.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sep"></div>
-      <div class="inline-actions">
-        <a class="btn primary" href="level-test.html">ابدأ اختبار المستوى</a>
-        <a class="btn outline" href="results.html">شوف صفحة النتائج</a>
-      </div>
-    </section>
-  </main>
-
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <h4>أكاديمية عايد — اختبار تحديد المستوى</h4>
-        <p style="margin-top:8px">
-          نساعدك تبدأ صح: اختبار مستوى → خطة يومية واضحة → توصية ذكية بالطريق الأنسب لك.
-          <br>الله يكتب لك التوفيق والدرجة اللي تفرّحك 💛
-        </p>
-        <p style="margin-top:10px; color:var(--muted); line-height:1.9">
-          ملاحظة: هذا اختبار محاكاة تدريبي مبني على نمط النماذج الحديثة (حتى 51) وليس أسئلة قياس الرسمية.
-        </p>
-      </div>
-
-      <div class="footer-links">
-        <a href="faq.html">الأسئلة الشائعة</a>
-        <a href="support.html">الدعم</a>
-        <a href="terms.html">الشروط</a>
-        <a href="privacy.html">الخصوصية</a>
-      </div>
-    </div>
-  </footer>
-
-  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
-
-  <button class="assistant-fab" aria-label="مساعد الموقع">
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M7 18l-3 3V7a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H7Z" stroke="rgba(0,0,0,.9)" stroke-width="2" stroke-linejoin="round"/>
-      <path d="M8 9h8M8 12h6" stroke="rgba(0,0,0,.9)" stroke-width="2" stroke-linecap="round"/>
-    </svg>
-  </button>
-
-  <div class="assistant-panel" aria-label="مساعد الموقع">
-    <header>
-      <div class="who">
-        <div class="avatar"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M8 9h8M8 13h6" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
-          <path d="M12 2v3" stroke="rgba(255,255,255,.7)" stroke-width="2" stroke-linecap="round"/>
-          <path d="M7 6h10a4 4 0 0 1 4 4v5a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-5a4 4 0 0 1 4-4Z" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linejoin="round"/>
-        </svg></div>
-        <div>
-          <div class="name">مساعد الموقع</div>
-          <p class="hint">إجابات جاهزة + يوجهك للخطوة الصح</p>
-        </div>
-      </div>
-      <button class="close" data-close-assistant>إغلاق</button>
-    </header>
-    <div class="body">
-      <div class="quick-actions">
-        <button class="chip" data-q="وش فايدة اختبار تحديد المستوى؟">فايدة الاختبار</button>
-        <button class="chip" data-q="كم سؤال؟">كم سؤال؟</button>
-        <button class="chip" data-q="كيف أشارك خطتي؟">مشاركة الخطة</button>
-        <button class="chip" data-q="وش أنسب خيار لي؟">اختيار الطريق</button>
-        <button class="chip" data-q="عندي مشكلة / بلاغ">الدعم</button>
-      </div>
-
-      <div class="chat" role="log" aria-live="polite"></div>
-
-      <div class="composer">
-        <input id="assistantInput" type="text" placeholder="اكتب سؤالك هنا… (مثال: اختباري بعد 7 أيام)" />
-        <button id="assistantSend" class="btn small primary">إرسال</button>
-      </div>
-    </div>
-  </div>
-
-  <script src="assets/site-data.js?v=202601300200"></script>
-  <script src="assets/notifications.js?v=202601300200"></script>
-  <script src="assets/app.js?v=202601300200"></script>
-
-</body>
-</html>
